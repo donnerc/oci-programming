@@ -17,6 +17,10 @@ Devoirs
 	devoirs/*
 
 
+Cours
+=====
+
+
 Indices and tables
 ==================
 
