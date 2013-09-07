@@ -26,12 +26,11 @@ Devoirs
 
 	devoirs/*
 
+..
+	Indices and ref
+	==================
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+	* :tables:`genindex`
+	* :ref:`modindex`
+	* :ref:`search`
 

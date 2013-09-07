@@ -1,8 +1,8 @@
 #####################
-Devoir 01 -- pour le 10.09.2013
+Devoir 01 -- pour le mardi 10.09.2013
 #####################
 
-Création des comptes
+Création des comptes (5 minutes)
 ====================
 
 * Création d'un compte gmail (http://mail.google.com)
@@ -10,15 +10,17 @@ Création des comptes
 * Création d'un compte koding (http://www.koding.com) en utilisant le compte *github*
 * Création d'un compte sur la plateforme d'apprentissage http://www.france-ioi.org
 
-Questionnaire
-==============
 
-* Répondre au `questionnaire de bienvenue <https://docs.google.com/forms/d/1lelh-ZvhPeJrtaKLhKU87kJ2BK30Y5n5yiKMheITSXM/viewform>`_
-
-Programmation sur http://www.france-ioi.org
+Programmation sur france IOI (environ 60 minutes)
 ====================
 
+**Lien** : http://www.france-ioi.org
+
 * Terminer le chapitre 2 du niveau 1 : **Répétitions d'instructions**
+
+* Noter les éléments importants du langage Python. 
+
+* Noter le temps réalisé pour faire le chapitre 2 du niveau 1
 
 ..	admonition:: Conseil
 
@@ -29,3 +31,8 @@ Programmation sur http://www.france-ioi.org
 	Il est cependant indispensable de noter les éléments importants dans un cahier de bord afin de les retenir et de pouvoir les retrouver rapidement lors de l'examen. 
 
 	Au fur et à mesure de votre apprentissage des subtilités Python, il vous sera de plus en plus difficile de les retrouver rapidement en cas de doute. Vous devez donc dès à présent commencer à vous créer votre référence personnelle du langage Python. Celle-ci sera autorisée durant les examens.
+
+Questionnaire (5 minutes)
+==============
+
+* Répondre au `questionnaire de bienvenue <https://docs.google.com/forms/d/1lelh-ZvhPeJrtaKLhKU87kJ2BK30Y5n5yiKMheITSXM/viewform>`_

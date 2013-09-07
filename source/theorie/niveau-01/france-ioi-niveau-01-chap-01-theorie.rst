@@ -1,4 +1,4 @@
-Chapitre 1 -- résumé
+Chapitre 1 -- Affichage de texte, suite d'instructions
 ####################
 
 Afficher du texte
@@ -43,13 +43,13 @@ Si on oublie un ou plusieurs guillemets, cela produit une des erreurs suivantes 
 
 ::
 
-	print("bonjour)
+	>>> print("bonjour)
 	SyntaxError: EOL while scanning string literal
 
-	print(bonjour)
+	>>> print(bonjour)
 	NameError: name 'bonjour' is not defined
 
-	print(bonjour tout le monde)
+	>>> print(bonjour tout le monde)
 	SyntaxError: invalid syntax
 
 Conclusion
@@ -71,7 +71,9 @@ Voici un exemple complet.
 
 	print("Bonjour !")
 	print("Comment vas-tu ?")
-	↳
+
+::
+
 	Bonjour ! 
 	Comment vas-tu ? 
 

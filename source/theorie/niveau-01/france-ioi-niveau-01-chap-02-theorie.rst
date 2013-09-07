@@ -1,4 +1,4 @@
-Chapitre 2 -- résumé
+Chapitre 2 -- Répétitions d'instructions
 ####################
 
 Répéter une action
@@ -202,3 +202,4 @@ On peut représenter l'exécution du programme par le diagramme suivant :
     Deux boucles l'une dans l'autre
 
 Lorsqu'une boucle apparaît à l'intérieur d'une autre boucle, comme c'est le cas ici, on parle de boucle imbriquée.
+
