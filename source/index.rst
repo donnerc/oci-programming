@@ -3,10 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Options coomplémentaire informatique : programmation's documentation!
-================================================================================
-
-Contents:
+OCI : apprentissage de la programmation
+=======================================
 
 .. toctree::
    :maxdepth: 2
