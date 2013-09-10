@@ -7,6 +7,14 @@
 OCI : apprentissage de la programmation
 #######################################
 
+Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre à programmer un ordinateur à l'aide du langage Python, ce qui nécessite d'apprendre à penser et formuler des problèmes de manière compréhensibles pour une machine.
+
+..	tip::
+
+	Si vous rencontrez des erreurs d'orthographe ou d'autres problèmes sur ce site, merci de bien vouloir les signaler sur le dépôt github du cours : https://github.com/donnerc/oci-programming/issues
+
+
+
 
 Théorie
 =======
@@ -25,6 +33,15 @@ Devoirs
 	:maxdepth: 1
 
 	devoirs/*
+
+Annexes
+=======
+
+..	toctree::
+	:glob:
+	:maxdepth: 1
+
+	annexes/*
 
 ..
 	Indices and ref
