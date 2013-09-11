@@ -15,15 +15,15 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre �
 
 
 
+..
+	Théorie
+	=======
 
-Théorie
-=======
+	..	toctree::
+		:glob:
+		:maxdepth: 2
 
-..	toctree::
-	:glob:
-	:maxdepth: 2
-
-	theorie/niveau-01/*
+		theorie/niveau-01/*
 
 Devoirs
 =======
@@ -33,6 +33,7 @@ Devoirs
 	:maxdepth: 1
 
 	devoirs/*
+	
 
 Annexes
 =======

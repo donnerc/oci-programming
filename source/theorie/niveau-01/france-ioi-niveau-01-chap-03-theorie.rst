@@ -21,7 +21,7 @@ Supposons que l'on souhaite écrire un programme qui affiche d'abord la distance
     55758000 
     111516000 
 
-Ce programme fonctionne parfaitement bien, mais il n'est pas idéal car on a dû écrire deux fois le nombre ``55758000 dans le code du programme. Cela signifie que si on veut afficher ces informations pour un autre jour, pendant lequel la distance entre les deux planètes est différente, il faudra modifier le programme à deux endroits différents.
+Ce programme fonctionne parfaitement bien, mais il n'est pas idéal car on a dû écrire deux fois le nombre ``55758000`` dans le code du programme. Cela signifie que si on veut afficher ces informations pour un autre jour, pendant lequel la distance entre les deux planètes est différente, il faudra modifier le programme à deux endroits différents.
 
 Pour éviter de devoir faire des modifications en double, on va utiliser une **variable**, appelée ``distance``, pour stocker la valeur ``55758000``. Grâce à cette variable, on peut réécrire le programme précédent en ne faisant apparaître qu'une seule fois le nombre ``55758000`` :
 
@@ -58,7 +58,7 @@ Les deux instructions d'affichage ont consulté le contenu de la boîte distance
 Plusieurs variables
 -------------------
 
-Dans l'exemple ci-dessus, nous avons utilisé une seule variable, mais les programmes en utilisent généralement plusieurs. Le programme suivant illustre cela : il utilise deux variables nommées ``largeur`` et ``longueur`` afin de calculer l'aire, en mm2 d'une feuille A4 (21cm x 29,7cm), et il enregistre le résultat dans une variable nommée surface. Le contenu de cette variable est ensuite affiché.
+Dans l'exemple ci-dessus, nous avons utilisé une seule variable, mais les programmes en utilisent généralement plusieurs. Le programme suivant illustre cela : il utilise deux variables nommées ``largeur`` et ``longueur`` afin de calculer l'aire, en :math:`[\text{mm}^2]` d'une feuille A4 (21cm x 29,7cm), et il enregistre le résultat dans une variable nommée surface. Le contenu de cette variable est ensuite affiché.
 
 ::
 
