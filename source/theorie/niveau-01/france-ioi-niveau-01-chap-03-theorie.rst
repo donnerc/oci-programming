@@ -9,8 +9,6 @@ Principe
 
 Supposons que l'on souhaite écrire un programme qui affiche d'abord la distance qui séparait la Terre et Mars le 27 Août 2003 (55'758'000 km), puis la distance à parcourir par la lumière pour faire l'aller-retour depuis la Terre (le double). On pourrait écrire le programme ainsi :
 
- 
-
 ::
 
     print(55758000)
@@ -56,7 +54,7 @@ Les deux instructions d'affichage ont consulté le contenu de la boîte distance
     print(2 * distance)
 
 Règles pour choisir les noms des variables
--------------------------------------------
+==========================================
 
 Lorsqu'on a besoin d'une nouvelle variable, on cherchera toujours à trouver un nom pour cette variable qui décrive le mieux possible ce que représente la valeur contenue dans cette variable. Il ne faut pas hésiter à mettre à la suite plusieurs mots pour construire un nom précis. Nous vous conseillons de nommer vos variables par une suite de mots ou abréviations accolés les uns aux autres, en mettant en majuscule la première lettre de chaque mot (sauf le premier). Voici quelques exemples :
 
@@ -87,11 +85,14 @@ Noms valides et invalides
 
 En Python, le nom d'une variable peut être choisi "presque" librement. Il faut retenir les règles suivantes :
 
-*   Le premier caractère du nom d'une variable ne peut pas être un chiffre. Le nom  
+*   Le premier caractère du nom d'une variable ne peut pas être un chiffre. Le nom
     ``1erNombre`` est ainsi invalide.
+
 *   Certains mots font partie du langage Python et ne peuvent être utilisés pour
-    nommer des variables. C'est par exemple le cas du mot ``for``.
-*   Les caractères autorisés sont essentiellement les chiffres de '0' à '9', le caractère '_', et les lettres majuscules ou minuscules.
+    nommer des variables. C'est par exemple le cas du mot ``for`` adsf asdf asdf
+
+*   Les caractères autorisés sont essentiellement les chiffres de ``0`` à ``9``, le caractère ``_``,
+    et les lettres majuscules ou minuscules.
 
 Plusieurs variables
 -------------------
