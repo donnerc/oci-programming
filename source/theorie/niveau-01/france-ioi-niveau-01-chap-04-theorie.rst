@@ -67,18 +67,18 @@ Si on oublie le ``int(...)`` et que l'on écrit juste ``input()`` à la place de
     valeur2 = input()
     print(valeur1 + valeur2)
 
-Avec l'entrée
+..  admonition:: Entrée
 
-::
+    ::
 
-    11
-    22
+        11
+        22
 
-On aurait comme sortie
+..  admonition:: Sortie
 
-::
+    ::
 
-    1122 
+        1122 
 
 Si on oublie le ``int(...)`` autour du ``input()``, les valeurs ne sont pas traitées comme des entiers mais comme du texte. Le symbole ``+`` agit alors comme un opérateur qui **concatène** (c'est-à-dire qui met bout à bout) deux textes, et du coup on obtient ``11`` collé à ``22`` (c'est-à-dire ``1122``) à la place de ``11`` additionné à ``22`` (c'est-à-dire ``33``).
 
@@ -98,17 +98,17 @@ mais qu'on se soit trompé dans le programme et qu'on lise trois entiers :
     troisiemeNombre = int(input())
     print(premierNombre * secondNombre * troisiemeNombre)
 
-**Sortie du programme** :
+..  admonition:: Sortie
 
-::
+    ::
 
-    4
-    5
+        4
+        5
 
-    Traceback (most recent call last):
-      File "./run/exe", line 3, in 
-        troisiemeNombre = int(input())
-    EOFError: EOF when reading a line
+        Traceback (most recent call last):
+          File "./run/exe", line 3, in 
+            troisiemeNombre = int(input())
+        EOFError: EOF when reading a line
 
 On sait que le programme n'est pas bon car il essaie de lire un troisième nombre qui n'existe pas, mais que signifie exactement cette erreur ?
 
