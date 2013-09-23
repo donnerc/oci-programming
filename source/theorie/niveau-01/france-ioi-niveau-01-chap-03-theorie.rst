@@ -94,6 +94,23 @@ En Python, le nom d'une variable peut être choisi "presque" librement. Il faut 
 *   Les caractères autorisés sont essentiellement les chiffres de ``0`` à ``9``, le caractère ``_``,
     et les lettres majuscules ou minuscules.
 
+..  admonition:: Mots-clés de Python
+
+    Voici une liste exhaustive des mots-clés de Python qu'il est interdit d'utiliser pour les noms de variables :
+
+    ::
+
+        False      class      finally    is         return
+        None       continue   for        lambda     try
+        True       def        from       nonlocal   while
+        and        del        global     not        with
+        as         elif       if         or         yield
+        assert     else       import     pass
+        break      except     in         raise
+
+    **Référence** : http://docs.python.org/3/reference/lexical_analysis.html#identifiers
+
+
 Plusieurs variables
 -------------------
 
