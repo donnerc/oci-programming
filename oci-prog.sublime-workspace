@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"conc",
+				"concaténation"
+			],
+			[
 				"mots",
 				"Mots-clés"
 			],
@@ -75,6 +79,41 @@
 			}
 		},
 		{
+			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
+			"settings":
+			{
+				"buffer_size": 6328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
+			"settings":
+			{
+				"buffer_size": 1213,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
+			"settings":
+			{
+				"buffer_size": 2056,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Structures avancées\n###################\n\nPlanning de la journée\n======================\n\n::\n\n    position = int(input())\n    nbLieux = int(input())\n\n    nbPossibles = 0\n\n    for loop in range(nbLieux):\n       distance = int(input()) - position\n       if distance >= 0:\n          if distance <= 50:\n             nbPossibles = nbPossibles + 1\n       else:\n          if distance >= -50:\n             nbPossibles = nbPossibles + 1\n          \n    print(nbPossibles)\n\nAutre possibilité\n-----------------\n\n::\n\n    posActuelle = int(input())\n    nbVillages = int(input())\n    nbAccessibles = 0\n\n    for loop in range(nbVillages):\n       posVillage = int(input())\n       ecart = posActuelle - posVillage\n\n       if ecart < 0:\n          ecart = -ecart\n\n       if ecart <= 50:\n          nbAccessibles = nbAccessibles + 1\n\n    print(nbAccessibles) \n\n    ",
+			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
+			"file_size": 0,
+			"file_write_time": 130244387874725746,
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 			"settings":
 			{
@@ -102,7 +141,7 @@
 			"file": "source/devoirs/devoir-03.rst",
 			"settings":
 			{
-				"buffer_size": 2348,
+				"buffer_size": 3372,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,6 +159,14 @@
 			"settings":
 			{
 				"buffer_size": 1720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/devoirs/devoir-04.rst",
+			"settings":
+			{
+				"buffer_size": 883,
 				"line_ending": "Windows"
 			}
 		},
@@ -144,9 +191,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 265.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"conv spa",
+				"Indentation: Convert to Spaces"
+			],
 			[
 				"restr",
 				"Set Syntax: Sublime reStructuredText"
@@ -317,6 +368,8 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
+		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/test.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/oci-prog.sublime-project",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/build/html/index.html",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/Makefile",
@@ -358,6 +411,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<",
+			">",
+			"els",
+			"if",
+			"figure::",
+			":math.*",
+			"lorsque",
+			"``\\n",
+			"- ``",
 			"noms valides",
 			"valide",
 			" ",
@@ -401,7 +463,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 17,
 			"sheets":
 			[
 				{
@@ -533,8 +595,8 @@
 						"selection":
 						[
 							[
-								375,
-								375
+								849,
+								849
 							]
 						],
 						"settings":
@@ -633,7 +695,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -880,16 +942,8 @@
 						"selection":
 						[
 							[
-								1378,
-								1378
-							],
-							[
-								1448,
-								1448
-							],
-							[
-								1511,
-								1511
+								4025,
+								4028
 							]
 						],
 						"settings":
@@ -983,11 +1037,11 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage",
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 76.0,
+						"translation.y": 1907.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1228,6 +1282,470 @@
 				},
 				{
 					"buffer": 7,
+					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
+					"settings":
+					{
+						"buffer_size": 6328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
+					"settings":
+					{
+						"buffer_size": 1213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1213,
+								1213
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
+					"settings":
+					{
+						"buffer_size": 2056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1688,
+								1688
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 					"settings":
 					{
@@ -1238,8 +1756,8 @@
 						"selection":
 						[
 							[
-								403,
-								403
+								447,
+								447
 							]
 						],
 						"settings":
@@ -1344,7 +1862,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
@@ -1459,7 +1977,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 13,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 					"settings":
 					{
@@ -1470,8 +1988,8 @@
 						"selection":
 						[
 							[
-								2031,
-								2031
+								919,
+								919
 							]
 						],
 						"settings":
@@ -1570,25 +2088,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 661.0,
+						"translation.y": 2550.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 14,
 					"file": "source/devoirs/devoir-03.rst",
 					"settings":
 					{
-						"buffer_size": 2348,
+						"buffer_size": 3372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								317,
-								317
+								81,
+								0
 							]
 						],
 						"settings":
@@ -1693,7 +2211,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 15,
 					"file": "source/theorie/niveau-01/commentaires.rst",
 					"settings":
 					{
@@ -1809,7 +2327,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 16,
 					"file": "source/devoirs/devoir-01.rst",
 					"settings":
 					{
@@ -1924,7 +2442,122 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 17,
+					"file": "source/devoirs/devoir-04.rst",
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
 					"file": "source/devoirs/devoir-02.rst",
 					"settings":
 					{
@@ -2041,7 +2674,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 19,
 					"settings":
 					{
 						"buffer_size": 270,
@@ -2204,32 +2837,68 @@
 		"selected_items":
 		[
 			[
-				"",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/Makefile"
+				"devoi04",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-04.rst"
 			],
 			[
-				"deoi",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-03.rst"
+				"",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst"
+			],
+			[
+				"struc",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst"
+			],
+			[
+				"france06",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst"
 			],
 			[
 				"inde",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst"
 			],
 			[
+				"france05",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst"
+			],
+			[
+				"fance04",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst"
+			],
+			[
+				"dev03",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-03.rst"
+			],
+			[
+				"devoir",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-01.rst"
+			],
+			[
 				"france",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst"
+			],
+			[
+				"05",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/index.rst"
+			],
+			[
+				"frnace",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst"
+			],
+			[
+				"niveau",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst"
 			],
 			[
 				"03",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-03.rst"
 			],
 			[
-				"o4",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst"
+				"deoi",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-03.rst"
 			],
 			[
-				"frnace",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst"
+				"o4",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst"
 			],
 			[
 				"tot",
@@ -2258,10 +2927,6 @@
 			[
 				"devoi",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-02.rst"
-			],
-			[
-				"devoir",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-01.rst"
 			],
 			[
 				"index",

@@ -6,7 +6,9 @@ Questions théoriques et de compréhension
 ========================================
 
 #)	Déterminer, entre les deux programmes suivants, lequel est le plus
-	élégant et le plus efficace. **Justifier votre réponse !**
+	élégant et le plus efficace pour résoudre l'exercice
+	http://www.france-ioi.org/algo/task.php?idChapter=646&idTask=0&sTab=task&iOrder=9.
+	**Justifier votre réponse !**
 
 	*	Programme A
 
