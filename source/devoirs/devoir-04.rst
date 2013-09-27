@@ -40,4 +40,3 @@ Questions théoriques et de compréhension
 			   print(2* (de1 + de2))
 
 
-Test
