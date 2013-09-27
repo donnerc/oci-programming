@@ -13,8 +13,6 @@
 
 import sys, os
 
-import sphinx_bootstrap_theme
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -97,9 +95,15 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 bootstrap = True
+try:
+  import sphinx_bootstrap_theme
+except:
+  bootstrap = False
+
+
 if bootstrap:
-	html_theme = 'bootstrap'
-	html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+  html_theme = 'bootstrap'
+  html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 else:
 	html_theme = 'sphinxdoc'
 
