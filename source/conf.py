@@ -241,7 +241,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Optioncomplmentaireinformatiqueprogrammation', u'Option complémentaire informatique',
+  ('index', 'oci-prog-france-ioi', u'Option complémentaire informatique',
    u'Cédric Donner', 'Optioncomplmentaireinformatiqueprogrammation', 'One line description of project.',
    'Miscellaneous'),
 ]
