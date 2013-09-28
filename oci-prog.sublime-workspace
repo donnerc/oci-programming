@@ -31,8 +31,16 @@
 			"file": "source/index.rst",
 			"settings":
 			{
-				"buffer_size": 1205,
+				"buffer_size": 1302,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/annexes/github/premiere-utilisation.rst",
+			"settings":
+			{
+				"buffer_size": 2282,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -40,6 +48,14 @@
 			"settings":
 			{
 				"buffer_size": 1354,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/annexes/conseils.rst",
+			"settings":
+			{
+				"buffer_size": 832,
 				"line_ending": "Windows"
 			}
 		},
@@ -185,16 +201,16 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 288.0,
 		"selected_items":
 		[
 			[
-				"conv spa",
-				"Indentation: Convert to Spaces"
-			],
-			[
 				"restr",
 				"Set Syntax: Sublime reStructuredText"
+			],
+			[
+				"conv spa",
+				"Indentation: Convert to Spaces"
 			],
 			[
 				"rest",
@@ -362,6 +378,8 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst",
+		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/figures/premiere-utilisation.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/conseils.rst",
 		"/C/Users/donnerc/Desktop/chapitre-tests-conditions.html",
 		"/C/Users/donnerc/Desktop/structures-avancees-data.csv",
@@ -414,9 +432,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			" git",
 			"=+\\n",
 			"\\n{2,}",
 			"\\n{2}",
@@ -659,15 +678,15 @@
 					"file": "source/index.rst",
 					"settings":
 					{
-						"buffer_size": 1205,
+						"buffer_size": 1302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1088,
-								1088
+								1135,
+								1135
 							]
 						],
 						"settings":
@@ -766,25 +785,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 525.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "source/annexes/outils-dev.rst",
+					"file": "source/annexes/github/premiere-utilisation.rst",
 					"settings":
 					{
-						"buffer_size": 1354,
+						"buffer_size": 2282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								532,
-								532
+								1715,
+								1715
 							]
 						],
 						"settings":
@@ -878,7 +897,122 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/RestructuredText/reStructuredText.tmLanguage"
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 508.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/annexes/outils-dev.rst",
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								24
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -887,7 +1021,122 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "source/annexes/conseils.rst",
+					"settings":
+					{
+						"buffer_size": 832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "source/annexes/documents-interessants.rst",
 					"settings":
 					{
@@ -1002,7 +1251,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 					"settings":
 					{
@@ -1118,7 +1367,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 					"settings":
 					{
@@ -1129,8 +1378,8 @@
 						"selection":
 						[
 							[
-								0,
-								5885
+								61,
+								41
 							]
 						],
 						"settings":
@@ -1235,7 +1484,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 					"settings":
 					{
@@ -1352,7 +1601,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 					"settings":
 					{
@@ -1468,7 +1717,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 					"settings":
 					{
@@ -1583,7 +1832,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 					"settings":
 					{
@@ -1700,7 +1949,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
 					"settings":
 					{
@@ -1817,7 +2066,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 					"settings":
 					{
@@ -1934,7 +2183,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
@@ -2049,7 +2298,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 					"settings":
 					{
@@ -2166,7 +2415,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "source/devoirs/devoir-03.rst",
 					"settings":
 					{
@@ -2283,7 +2532,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "source/theorie/niveau-01/commentaires.rst",
 					"settings":
 					{
@@ -2399,7 +2648,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "source/devoirs/devoir-01.rst",
 					"settings":
 					{
@@ -2514,7 +2763,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "source/devoirs/devoir-04.rst",
 					"settings":
 					{
@@ -2630,7 +2879,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "source/devoirs/devoir-02.rst",
 					"settings":
 					{
@@ -2747,7 +2996,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"settings":
 					{
 						"buffer_size": 270,
@@ -2914,16 +3163,24 @@
 		"selected_items":
 		[
 			[
-				"consil",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/conseils.rst"
+				"",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst"
 			],
 			[
 				"inde",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/index.rst"
 			],
 			[
-				"",
-				"/C/Users/donnerc/Desktop/chapitre01-affichage-texte-suite-instructions.csv"
+				"premi",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/figures/premiere-utilisation.rst"
+			],
+			[
+				"prenmier",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/figures/premiere-utilisation.rst"
+			],
+			[
+				"consil",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/conseils.rst"
 			],
 			[
 				"ra",
