@@ -21,3 +21,4 @@ en classe.
 Dans ce but, vous aurez dès à présent à rendre vos devoirs par le biais des
 plateformes GitHub et Koding. Ce petit guide vous montre comment procéder pour
 rendre vos devoirs.
+
