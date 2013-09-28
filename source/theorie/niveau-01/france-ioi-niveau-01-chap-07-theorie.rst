@@ -72,3 +72,44 @@ Dans la réalité il faut en fait avoir entre 12 et 25 ans et non pas simplement
 
 On peut donc combiner facilement les opérateurs booléens pour construire des conditions complexes à partir de conditions simples.
 
+Les booléens
+============
+
+En Python le programme suivant :
+
+::
+
+    if prix < 10:
+       print("Pas cher")
+
+peut aussi s'écrire
+
+::
+
+    estPasCher = (prix < 10)
+    if estPasCher:
+       print("Pas cher")
+
+On a donc stocké dans la variable ``estPasCher`` la valeur de la comparaison ``prix < 10`` pour la réutiliser plus tard dans un ``if``.
+
+La variable ``estPasCher`` est appelée une variable booléenne ou un booléen car elle ne peut être que vraie ou fausse, ce qui correspond en Python aux valeurs ``True`` (pour vrai) et ``False`` (pour faux).
+
+Ainsi en Python, l'expression ``(3 < 10)`` vaut ``True`` et ``(11 == 7)`` vaut ``False``. ``True`` et ``False`` sont donc des constantes du langage, au même titre que ``0``, ``1`` ou encore ``42``.
+
+On peut donc affecter directement la valeur ``True`` ou ``False`` à une variable :
+
+::
+
+    toujoursVraie = True
+    if toujoursVraie:
+       print("La variable toujoursVraie vaut 'True'")
+
+On peut également utiliser les opérateurs ``and`` et ``or`` comme le montre l'exemple suivant :
+
+::
+
+    estSenior = (age >= 60)
+    estJeune = (age <= 25) and (age >= 12)
+    reductionPossible = (estSenior or estJeune)
+    if reductionPossible:
+       print("Réduction!")

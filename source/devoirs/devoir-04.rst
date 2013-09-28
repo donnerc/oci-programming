@@ -54,3 +54,7 @@ Lecture (introduction à GitHub)
 
 *	Copier tous vos programmes concernant les problèmes de type
 	**validation** des chapitres 5 à 7 dans votre *fork* du dépôt ``oci-prog-exos`` à l'aide de l'éditeur de code source intégré sur GitHub.
+
+	..	note::
+
+		Pour le chapitre 7, rendre tous les exercices du chapitre
