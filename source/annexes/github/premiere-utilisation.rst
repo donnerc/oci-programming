@@ -10,13 +10,12 @@ en faire une brève présentation générale.
 grands programmeurs de la planète ont un compte sur GitHub et ce dernier fait
 en quelque sorte office de "carte de visite" du programmeur.
 
-GitHub est une interface au programme **git** créé par Linus Torvalds, le
-créateur du système d'exploitation libre et gratuit GNU Linux. Il est bien
-clair que Torvalds n'était pas le seul dans cette grande aventure : il a
-collaboré avec des milliers de personnes grâce au **système de contrôle de
-version distribué** *git*. La majorité des grands projets informatiques actuels
-dans le monde du logiciel libre utilisent l'outil *git* pour gérer le
-développement du code source et la collaboration entre les développeurs.
+GitHub est une interface au programme **git**. Ce programme a été créé par
+Linus Torvalds pour faciliter la collaboration entre les développeurs du
+système d'exploitation libre et gratuit GNU Linux. La majorité des grands
+projets informatiques actuels dans le monde du logiciel libre utilisent
+l'outil *git* pour gérer le développement du code source et la collaboration
+entre les développeurs.
 
 Il s'agit d'un outil permettant de partager le code source (les fichiers
 contenant les lignes de programmation) d'un projet et de gérer les différentes versions des fichiers. Cet outil conserve tout l'historique des modifications de chaque fichier présent dans le projet, ce qui rend possible à tout moment la restauration des versions antérieures.
