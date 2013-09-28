@@ -15,8 +15,6 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre √
 
 
 
-..
-
 Th√©orie
 =======
 
@@ -34,7 +32,15 @@ Devoirs
     :maxdepth: 1
 
     devoirs/*
-    
+
+GitHub
+======
+
+..  toctree::
+    :glob:
+    :maxdepth: 1
+
+    annexes/github/premiere-utilisation
 
 Annexes
 =======
@@ -44,6 +50,9 @@ Annexes
     :maxdepth: 1
 
     annexes/*
+
+
+    
 
 ..
     Indices and ref
