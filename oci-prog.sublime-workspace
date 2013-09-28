@@ -36,14 +36,43 @@
 			}
 		},
 		{
-			"contents": "Première utilisation de GitHub\n##############################\n\nCe petit guide va conduire dans votre première utilisation de GitHub et faire\nune brève présentation générale.\n\nGitHub est une sorte de Facebook de la programmation. La plupart des plus\ngrands programmeurs de la planète ont un compte sur GitHub et ce dernier fait\nen quelque sorte office de \"carte de visite\" du programmeur.\n\nGitHub est une interface au programme **git** créé par Linus Torvalds, le\ncréateur du système d'exploitation libre et gratuit GNU Linux. Il est bien\nclair que Torvalds n'était pas le seul dans cette grande aventure : il a\ncollaboré avec des milliers de personnes grâce au **système de contrôle de\nversion distribué** *git*. La majorité des grands projets informatiques actuels\ndans le monde du logiciel libre utilisent l'outil *git* pour gérer le\ndéveloppement du code source et la collaboration entre les développeurs.\n\nIl s'agit d'un outil permettant de partager le code source (les fichiers\ncontenant les lignes de programmation) d'un projet et de gérer les différentes versions des fichiers. Cet outil conserve tout l'historique des modifications de chaque fichier présent dans le projet, ce qui rend possible à tout moment la restauration des versions antérieures.\n\nNous allons également nous servir de cet outil dans le cadre de l'OC\ninformatique pour partager les solutions des exercices et, plus tard,\ndévelopper nos projets.\n\n..	note::\n\n	Pour les personnes travaillant déjà sur un projet, dans le cadre du TM\n	développement Web, vous pourrez également vous servir de cette plateforme\n	pour coder ensemble sur les mêmes fichiers HTML, CSS et PHP.\n\nS'identifier\n=============\n\n#)	Pour s'identifier, il faut cliquer sur le  bouton \"sign in\"\n\n	..	figure:: figures/github-se-logger-01.png\n		:align: center\n		:width: 90%\n\n    	Bouton \"Sign In\"\n\n#)	Entrer ensuite vos informations de connexion créées lors du\n	premier cours de l'année.\n\n..	note::\n\n	Github est gratuit pour les projets publics et ne devient payant que pour les projets gardés privés. \n\n	Dans l'OC informatique, nous travaillerons uniquement sur des projets\n	publics. Tous vos exercices seront donc automatiquement disponibles à tout\n	le monde sur Internet.\n\n\n\nÉcran d'accueil\n===============\n\nVoici quelques explications concernant l'écran d'accueil de votre compte\nGitHub. Naturellement, il n'y a pas encore de dépôts dans votre compte lors de\nsa création ...\n\n..	figure:: figures/github-accueil.png\n	:align: center\n	:width: 90%\n\n	Écran d'accueil\n\nNous n'allons évidemment pas immédiatement utiliser toutes les fonctionnalités de GitHub.\n\nForker un dépôt\n===============\n\nAvant de créer un dépôt, nous allons commencer par \"forker\" un dépôt existant. Pour ce faire, vous allez entrer visiter le dépôt https://github.com/donnerc/oci-prog-exos. \n\n..	note::\n\n	L'opération de bifurcation (*fork* en anglais) consiste à copier un dépôt\n	dans lequel on va apporter des modifications pour ne pas toucher au dépôt\n	original.\n\n	Ceci est une des opérations les plus fondamentales avec git et permet très facilement à un développeur de créer une nouvelle mouture d'un logiciel informatique.\n\n	Après la bifurcation, si le dépôt original évoluel, il est possible\n	d'importer très facilement ces modifications dans le \"fork\". Nous verrons\n	plus tard les commandes *git* permettant d'effectuer ceci.\n\nCe dépôt (*repository* en anglais) contient des fichiers de base pour les problèmes de france IOI. \n\n..	figure:: figures/fork-repo.png\n	:align: center\n	:width: 95%\n\n	Créer une bifurcation\n\nTravailler avec un dépôt\n========================\n\nIl y a de nombreuses façons de travailler avec un dépôt git. La plus commune\nest de \"cloner\" le dépôt sur votre machine locale, de modificatier les\nfichiers à l'aide d'un éditeur de texte installé sur votre machine locale et de gérer ces modifications à l'aide de la commande ``git``.\n\nPour le moment, nous allons utiliser le site de GitHub modifier les fichiers\nprésents dans le dépôt. Pour ce faire, faut commencer par vous rendre dans\nvotre propre espace GitHub. Pour ce faire, il suffit de cliquer sur le bouton \n\n..	figure:: figures/back-to-github-space.png\n	:align: center\n	:width: 95%\n\n	Retourner à son espace personnel\n\nDepuis l'accueil de votre espace personnel, il est possible de voir tous vos\ndépôts, en particulier celui que vous venez de *forker* :\n\n..	figure:: figures/list-of-personal-repos.png\n	:align: center\n	:width: 95%\n\n	Liste des dépôt personnels\n\nNavigation dans le code source\n------------------------------\n\nVous pouvez entrer dans votre copie du dépôt en cliquant dessus dans la liste. Ceci devrait vous conduire à l'adresse https://github.com/<votre-compte-gihub>/oci-prog-exos :\n\n..	figure:: figures/home-of-repo.png\n	:align: center\n	:width: 95%\n\n	Page d'accueil d'un dépôt",
 			"file": "source/annexes/github/premiere-utilisation.rst",
-			"file_size": 5015,
-			"file_write_time": 1380381084000000,
 			"settings":
 			{
-				"buffer_size": 4785,
+				"buffer_size": 6047,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
+			"settings":
+			{
+				"buffer_size": 518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/conf.py",
+			"settings":
+			{
+				"buffer_size": 8665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/todos/sphinx.rst",
+			"settings":
+			{
+				"buffer_size": 511,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/structure-niveau-01.txt",
+			"settings":
+			{
+				"buffer_size": 3047,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -127,14 +156,6 @@
 			}
 		},
 		{
-			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 			"settings":
 			{
@@ -179,7 +200,7 @@
 			"file": "source/devoirs/devoir-04.rst",
 			"settings":
 			{
-				"buffer_size": 883,
+				"buffer_size": 1355,
 				"line_ending": "Windows"
 			}
 		},
@@ -204,9 +225,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 96.0,
 		"selected_items":
 		[
+			[
+				"conv sp",
+				"Indentation: Convert to Spaces"
+			],
 			[
 				"restr",
 				"Set Syntax: Sublime reStructuredText"
@@ -364,7 +389,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -381,6 +406,9 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
+		"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/structure-niveau-01.txt",
+		"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/oci-prog.sublime-sublime-project",
 		"/tmp/Cairo.patch",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/figures/premiere-utilisation.rst",
@@ -439,6 +467,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"..  todo::",
+			"\\*	",
+			"*	",
+			"-alr",
+			"	.",
+			"	..",
+			"\n	",
+			"\n	..\n",
+			"	..",
+			".rw.*\\d\\d:\\d\\d ",
 			" git",
 			"=+\\n",
 			"\\n{2,}",
@@ -540,7 +578,7 @@
 			"format"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
@@ -557,7 +595,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -799,15 +837,15 @@
 					"file": "source/annexes/github/premiere-utilisation.rst",
 					"settings":
 					{
-						"buffer_size": 4785,
+						"buffer_size": 6047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4690,
-								4690
+								396,
+								396
 							]
 						],
 						"settings":
@@ -905,13 +943,121 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1941.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
+					"settings":
+					{
+						"buffer_size": 518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/conf.py",
+					"settings":
+					{
+						"buffer_size": 8665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1452,
+								1452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/todos/sphinx.rst",
+					"settings":
+					{
+						"buffer_size": 511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/structure-niveau-01.txt",
+					"settings":
+					{
+						"buffer_size": 3047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3047,
+								3047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1258.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "source/annexes/outils-dev.rst",
 					"settings":
 					{
@@ -1026,7 +1172,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "source/annexes/conseils.rst",
 					"settings":
 					{
@@ -1141,7 +1287,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "source/annexes/documents-interessants.rst",
 					"settings":
 					{
@@ -1256,7 +1402,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 					"settings":
 					{
@@ -1372,7 +1518,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 					"settings":
 					{
@@ -1489,7 +1635,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 					"settings":
 					{
@@ -1606,7 +1752,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 13,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 					"settings":
 					{
@@ -1722,7 +1868,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 14,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 					"settings":
 					{
@@ -1837,7 +1983,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 15,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 					"settings":
 					{
@@ -1954,7 +2100,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 16,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
 					"settings":
 					{
@@ -2071,124 +2217,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 17,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
@@ -2303,7 +2332,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 18,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 					"settings":
 					{
@@ -2420,7 +2449,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 19,
 					"file": "source/devoirs/devoir-03.rst",
 					"settings":
 					{
@@ -2537,7 +2566,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 20,
 					"file": "source/theorie/niveau-01/commentaires.rst",
 					"settings":
 					{
@@ -2653,7 +2682,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 21,
 					"file": "source/devoirs/devoir-01.rst",
 					"settings":
 					{
@@ -2768,19 +2797,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 22,
 					"file": "source/devoirs/devoir-04.rst",
 					"settings":
 					{
-						"buffer_size": 883,
+						"buffer_size": 1355,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								883,
-								883
+								882,
+								882
 							]
 						],
 						"settings":
@@ -2878,13 +2907,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 23,
 					"file": "source/devoirs/devoir-02.rst",
 					"settings":
 					{
@@ -3001,7 +3030,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 24,
 					"settings":
 					{
 						"buffer_size": 270,
@@ -3169,15 +3198,35 @@
 		[
 			[
 				"",
-				"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst"
+				"/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/todos/sphinx.rst"
+			],
+			[
+				"conf",
+				"/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/conf.py"
+			],
+			[
+				"todos",
+				"/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/todos/sphinx.rst"
 			],
 			[
 				"inde",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/index.rst"
+				"/home/donnerc/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst"
+			],
+			[
+				"snipinde",
+				"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst"
 			],
 			[
 				"premi",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/figures/premiere-utilisation.rst"
+				"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst"
+			],
+			[
+				"txt",
+				"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/structure-niveau-01.txt"
+			],
+			[
+				"devoirs4",
+				"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-04.rst"
 			],
 			[
 				"prenmier",
@@ -3290,10 +3339,6 @@
 			[
 				"deo",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-02.rst"
-			],
-			[
-				"conf",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/conf.py"
 			],
 			[
 				"devoi",
