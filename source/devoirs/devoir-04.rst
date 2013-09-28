@@ -40,3 +40,17 @@ Questions théoriques et de compréhension
 			   print(2* (de1 + de2))
 
 
+Programmation
+=============
+
+*	Terminer le chapitre 7 sur les conditions avancées
+
+
+Lecture (introduction à GitHub)
+===============================
+
+*	Lire le document :ref:`premiere-utilisation-github` et
+	effectuer les opérations qui y sont décrites sur le site GitHub
+
+*	Copier tous vos programmes concernant les problèmes de type
+	**validation** des chapitres 5 à 7 dans votre *fork* du dépôt ``oci-prog-exos`` à l'aide de l'éditeur de code source intégré sur GitHub.

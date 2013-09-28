@@ -1,0 +1,92 @@
+niveau-01/chapitre-8-repetitions-tant-que:
+total 11
+	departement-de-pedagogie--le-c-est-plus-c-est-moins--entrainement.py
+	departement-de-medecine--controle-d-une-epidemie-entrainement.py
+	departement-de-chimie--melange-explosif-validation.py
+	departement-d-architecture--construction-d-une-pyramide-validation.py
+	administration--comptes-annuels-entrainement.py
+
+niveau-01/chapitre-7-conditions-avancees-operateurs-booleens:
+total 13
+	zones-de-couleurs-validation.py
+	personne-disparue-entrainement.py
+	nombre-de-personnes-a-la-fete-entrainement.py
+	nombre-de-jours-dans-le-mois-entrainement.py
+	maison-de-l-espion-entrainement.py
+	l-espion-est-demasque--entrainement.py
+	la-grande-fete-entrainement.py
+	espion-etranger-entrainement.py
+	bonus--casernes-de-pompiers-validation.py
+	amitie-entre-gardes-entrainement.py
+
+niveau-01/chapitre-6-structures-avancees:
+total 12
+	villes-et-villages-entrainement.py
+	type-d-arbres-entrainement.py
+	tarifs-de-l-auberge-entrainement.py
+	protection-du-village-entrainement.py
+	planning-de-la-journee-validation.py
+	le-juste-prix-validation.py
+	etape-la-plus-longue-entrainement.py
+	calcul-des-denivelees-entrainement.py
+
+niveau-01/chapitre-5-tests-et-conditions:
+total 12
+	traversee-du-pont-entrainement.py
+	transport-des-bagages-entrainement.py
+	tarifs-degressifs-entrainement.py
+	tarif-du-bateau-entrainement.py
+	mot-de-passe-du-village-validation.py
+	force-algoreenne-validation.py
+	bornes-kilometriques-entrainement.py
+	bagarre-generale-entrainement.py
+
+niveau-01/chapitre-4-lecture-de-l-entree:
+total 13
+	socles-pour-statues-validation.py
+	retraite-spirituelle-entrainement.py
+	recoltes-entrainement.py
+	le-plus-beau-karva-validation.py
+	la-grande-braderie-validation.py
+	graduation-de-thermometres-entrainement.py
+	encore-des-punitions-entrainement.py
+	concours-de-calcul-mental-entrainement.py
+	betail-entrainement.py
+	age-des-petits-enfants-entrainement.py
+
+niveau-01/chapitre-3-calculs-et-decouverte-des-variables:
+total 14
+	verifications-entrainement.py
+	une-partie-de-cache-cache-entrainement.py
+	table-de-multiplication-entrainement.py
+	pas-de-panique-entrainement.py
+	l-eclipse-entrainement.py
+	kermesse-entrainement.py
+	invasion-de-batraciens-entrainement.py
+	decollage-fusee-entrainement.py
+	course-avec-les-enfants-validation.py
+	cour-de-recreation-entrainement.py
+	construction-d-une-pyramide-validation.py
+	bonbons-pour-tout-le-monde--entrainement.py
+
+niveau-01/chapitre-2-repetitions-d-instructions:
+total 13
+	vendanges-validation.py
+	transport-d-eau-entrainement.py
+	sisyphe-entrainement.py
+	punition-entrainement.py
+	page-d-ecriture-entrainement.py
+	mont-kailash-entrainement.py
+	mathematiques-de-base-entrainement.py
+	le-secret-du-goma-entrainement.py
+	le-grand-evenement-entrainement.py
+	jeu-de-dames-entrainement.py
+
+niveau-01/chapitre-1-affichage-de-texte-et-suite-d-instructions:
+total 11
+	recette-secrete-entrainement.py
+	presentation-entrainement.py
+	plan-de-la-montagne-entrainement.py
+	labyrinthe-validation.py
+	hello-world-entrainement.py
+	empilement-de-cylindres-entrainement.py

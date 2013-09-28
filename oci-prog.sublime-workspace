@@ -36,10 +36,13 @@
 			}
 		},
 		{
+			"contents": "Première utilisation de GitHub\n##############################\n\nCe petit guide va conduire dans votre première utilisation de GitHub et faire\nune brève présentation générale.\n\nGitHub est une sorte de Facebook de la programmation. La plupart des plus\ngrands programmeurs de la planète ont un compte sur GitHub et ce dernier fait\nen quelque sorte office de \"carte de visite\" du programmeur.\n\nGitHub est une interface au programme **git** créé par Linus Torvalds, le\ncréateur du système d'exploitation libre et gratuit GNU Linux. Il est bien\nclair que Torvalds n'était pas le seul dans cette grande aventure : il a\ncollaboré avec des milliers de personnes grâce au **système de contrôle de\nversion distribué** *git*. La majorité des grands projets informatiques actuels\ndans le monde du logiciel libre utilisent l'outil *git* pour gérer le\ndéveloppement du code source et la collaboration entre les développeurs.\n\nIl s'agit d'un outil permettant de partager le code source (les fichiers\ncontenant les lignes de programmation) d'un projet et de gérer les différentes versions des fichiers. Cet outil conserve tout l'historique des modifications de chaque fichier présent dans le projet, ce qui rend possible à tout moment la restauration des versions antérieures.\n\nNous allons également nous servir de cet outil dans le cadre de l'OC\ninformatique pour partager les solutions des exercices et, plus tard,\ndévelopper nos projets.\n\n..	note::\n\n	Pour les personnes travaillant déjà sur un projet, dans le cadre du TM\n	développement Web, vous pourrez également vous servir de cette plateforme\n	pour coder ensemble sur les mêmes fichiers HTML, CSS et PHP.\n\nS'identifier\n=============\n\n#)	Pour s'identifier, il faut cliquer sur le  bouton \"sign in\"\n\n	..	figure:: figures/github-se-logger-01.png\n		:align: center\n		:width: 90%\n\n    	Bouton \"Sign In\"\n\n#)	Entrer ensuite vos informations de connexion créées lors du\n	premier cours de l'année.\n\n..	note::\n\n	Github est gratuit pour les projets publics et ne devient payant que pour les projets gardés privés. \n\n	Dans l'OC informatique, nous travaillerons uniquement sur des projets\n	publics. Tous vos exercices seront donc automatiquement disponibles à tout\n	le monde sur Internet.\n\n\n\nÉcran d'accueil\n===============\n\nVoici quelques explications concernant l'écran d'accueil de votre compte\nGitHub. Naturellement, il n'y a pas encore de dépôts dans votre compte lors de\nsa création ...\n\n..	figure:: figures/github-accueil.png\n	:align: center\n	:width: 90%\n\n	Écran d'accueil\n\nNous n'allons évidemment pas immédiatement utiliser toutes les fonctionnalités de GitHub.\n\nForker un dépôt\n===============\n\nAvant de créer un dépôt, nous allons commencer par \"forker\" un dépôt existant. Pour ce faire, vous allez entrer visiter le dépôt https://github.com/donnerc/oci-prog-exos. \n\n..	note::\n\n	L'opération de bifurcation (*fork* en anglais) consiste à copier un dépôt\n	dans lequel on va apporter des modifications pour ne pas toucher au dépôt\n	original.\n\n	Ceci est une des opérations les plus fondamentales avec git et permet très facilement à un développeur de créer une nouvelle mouture d'un logiciel informatique.\n\n	Après la bifurcation, si le dépôt original évoluel, il est possible\n	d'importer très facilement ces modifications dans le \"fork\". Nous verrons\n	plus tard les commandes *git* permettant d'effectuer ceci.\n\nCe dépôt (*repository* en anglais) contient des fichiers de base pour les problèmes de france IOI. \n\n..	figure:: figures/fork-repo.png\n	:align: center\n	:width: 95%\n\n	Créer une bifurcation\n\nTravailler avec un dépôt\n========================\n\nIl y a de nombreuses façons de travailler avec un dépôt git. La plus commune\nest de \"cloner\" le dépôt sur votre machine locale, de modificatier les\nfichiers à l'aide d'un éditeur de texte installé sur votre machine locale et de gérer ces modifications à l'aide de la commande ``git``.\n\nPour le moment, nous allons utiliser le site de GitHub modifier les fichiers\nprésents dans le dépôt. Pour ce faire, faut commencer par vous rendre dans\nvotre propre espace GitHub. Pour ce faire, il suffit de cliquer sur le bouton \n\n..	figure:: figures/back-to-github-space.png\n	:align: center\n	:width: 95%\n\n	Retourner à son espace personnel\n\nDepuis l'accueil de votre espace personnel, il est possible de voir tous vos\ndépôts, en particulier celui que vous venez de *forker* :\n\n..	figure:: figures/list-of-personal-repos.png\n	:align: center\n	:width: 95%\n\n	Liste des dépôt personnels\n\nNavigation dans le code source\n------------------------------\n\nVous pouvez entrer dans votre copie du dépôt en cliquant dessus dans la liste. Ceci devrait vous conduire à l'adresse https://github.com/<votre-compte-gihub>/oci-prog-exos :\n\n..	figure:: figures/home-of-repo.png\n	:align: center\n	:width: 95%\n\n	Page d'accueil d'un dépôt",
 			"file": "source/annexes/github/premiere-utilisation.rst",
+			"file_size": 5015,
+			"file_write_time": 1380381084000000,
 			"settings":
 			{
-				"buffer_size": 2282,
+				"buffer_size": 4785,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,23 +114,23 @@
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 			"settings":
 			{
-				"buffer_size": 2056,
-				"line_ending": "Windows"
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
 			"settings":
 			{
-				"buffer_size": 841,
-				"line_ending": "Windows"
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 			"settings":
 			{
-				"buffer_size": 451,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,8 +138,8 @@
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 			"settings":
 			{
-				"buffer_size": 145,
-				"line_ending": "Windows"
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -378,6 +381,7 @@
 	},
 	"file_history":
 	[
+		"/tmp/Cairo.patch",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/figures/premiere-utilisation.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/conseils.rst",
@@ -795,15 +799,15 @@
 					"file": "source/annexes/github/premiere-utilisation.rst",
 					"settings":
 					{
-						"buffer_size": 2282,
+						"buffer_size": 4785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1715,
-								1715
+								4690,
+								4690
 							]
 						],
 						"settings":
@@ -897,10 +901,11 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 508.0,
+						"translation.y": 1941.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1836,15 +1841,15 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 					"settings":
 					{
-						"buffer_size": 2056,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1688,
-								1688
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1953,15 +1958,15 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
 					"settings":
 					{
-						"buffer_size": 841,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								87,
-								87
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2070,15 +2075,15 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 					"settings":
 					{
-						"buffer_size": 451,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								447,
-								447
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2187,15 +2192,15 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
-						"buffer_size": 145,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								0,
+								0
 							]
 						],
 						"settings":
@@ -3164,7 +3169,7 @@
 		[
 			[
 				"",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst"
+				"/media/donnerc/Win_data/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/annexes/github/premiere-utilisation.rst"
 			],
 			[
 				"inde",
