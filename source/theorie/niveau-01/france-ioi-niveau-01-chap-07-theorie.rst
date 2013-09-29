@@ -113,3 +113,137 @@ On peut également utiliser les opérateurs ``and`` et ``or`` comme le montre l'
     reductionPossible = (estSenior or estJeune)
     if reductionPossible:
        print("Réduction!")
+
+Les opérateurs booléens : la négation
+=====================================
+
+Imaginons la situation suivante : vous avez le droit à une réduction si vous avez entre 12 et 25 ans ou si vous avez plus de 60 ans mais, si vous n'avez pas de réduction et que vous faites plus de 5 000km par an, alors vous avez le droit à un cadeau.
+
+Un programme Python traduisant cela pourrait être :
+
+::
+
+    age = int(input())
+    nbKm = int(input())
+    if ( (12 <= age) and (age <= 25) ) or (age >= 60):
+       print("Réduction possible")
+    else:
+       print("Pas de réduction")   
+    if ( ( (age < 12) or (age > 25) ) and (age < 60) ) and (nbKm >= 5000):
+       print("Cadeau")
+    else:
+       print("Pas de cadeau")
+
+Ce programme est complexe et on sent qu'il y a des répétitions. En effet, si
+on définit la variable
+
+::
+
+    reductionPossible = ( (12 <= age) and (age <= 25) ) or (age >= 60)
+
+alors on a un cadeau si ``eductionPossible`` n'est pas vraie et si la longueur du trajet est plus grande que 5000km.
+
+Mais, si une condition n'est pas vraie, c'est que la condition contraire est
+vraie !
+
+Il est possible de calculer le contraire d'une condition en Python, en utilisant l'opérateur booléen ``not`` qui renvoie le contraire de la valeur qu'on lui donne :
+
+::
+
+    age = int(input())
+    nbKm = int(input())
+    reductionPossible = ( (12 <= age) and (age <= 25) ) or (age >= 60)
+
+    if reductionPossible:
+       print("Réduction possible")
+    else:
+       print("Pas de réduction")   
+    if ( not (reductionPossible) ) and (nbKm >= 5000):
+       print("Cadeau")
+    else:
+       print("Pas de cadeau")     
+
+Le programme est tout de suite beaucoup plus clair !
+
+Lorsqu'on utilise l'opérateur booléen ``not`` pour avoir le contraire d'une condition, on dit qu'on a pris la négation de la condition.
+
+Booléens : choses à ne pas faire
+================================
+
+Une maladresse classique avec les booléens est de faire quelque chose comme ceci
+
+::
+
+    prix = int(input())
+    estCher = (prix > 100)
+    if estCher == True:
+       print("C'est cher !")
+
+Le code est correct mais on n'a pas besoin de tester si quelque chose est égal
+à ``True`` ou ``False``, si ce quelque chose est lui même déjà ``True`` ou ``False`` !
+
+On remplacera donc
+
+::
+
+    if estCher == True:
+       print("Cher")
+
+par
+
+::
+
+    if estCher:
+       print("Cher")
+
+et
+
+::
+
+    if estCher == False:
+       print("Pas Cher")
+par
+
+::
+
+    if not(estCher):
+       print("Pas Cher")
+
+Un programme ne doit jamais contenir de ``== True`` ou ``== False``.
+
+Faire des tests : le "sinon si"
+===============================
+
+Un grand magasin propose une offre spéciale : si on achète pour plus de 300 euros de produits on a une remise de 40 euros, sinon si on achète pour plus de 200 euros on a une remise de 25 euros, sinon si on achète pour plus de 100 euros on a une remise de 10 euros sinon on a aucune remise.
+
+Si on traduit ce programme en Python cela donne :
+
+::
+
+    prix = int(input())
+    if prix >= 300:
+       prix = prix - 40  
+    else:
+       if prix >= 200:
+          prix = prix - 25
+       else:
+          if prix >= 100:
+             prix = prix - 10
+    print(prix)         
+
+On a cependant beaucoup de ``if/else`` imbriqués et le programme est très indenté, imaginez si on avait 10 conditions différentes !
+
+Mais, dans la phrase du début on a beaucoup utilise le terme **"sinon si"** et il existe une structure en Python qui correspond exactement à cela, il s'agit de la construction ``elif`` qui s'utilise ainsi :
+
+::
+
+    prix = int(input())
+    if prix >= 300:
+       prix = prix - 40  
+    elif prix >= 200:
+       prix = prix - 25
+    elif prix >= 100:
+       prix = prix - 10
+    print(prix)         
+
+On utilisera donc le ``elif`` quand il y a beaucoup de cas différents à tester.

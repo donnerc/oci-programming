@@ -178,3 +178,7 @@ pseudoxml:
 
 puthtml:
 	rsync -raz build/html/* www-data@donner-online.ch:/usr/share/nginx/www/oci/prog/
+
+
+viewhtml:
+	firefox build/html/index.html &	
