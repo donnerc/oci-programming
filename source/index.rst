@@ -31,6 +31,8 @@ Notions fondamentales de programmation
     :glob:
     :maxdepth: 2
 
+    notions/types-donnees
+    notions/operations-variables
     notions/compteur
     notions/while
 

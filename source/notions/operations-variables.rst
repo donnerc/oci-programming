@@ -23,15 +23,9 @@ dans une nouvelle variable.
 	z = (x * y + 5) * (x ** 2 + y **2 ) - 100
 	u = (z - 10000) * x
 
-..	admonition:: Sortie
+	print(u)
 
-	::
-
-		print(u)
-
-qui affiche :
-
---output--
+qui affiche ::
 
 	15730470                                
 
@@ -48,7 +42,7 @@ Une opération utilisant une variable n'affecte pas le contenu de la variable :
 	:linenos:
 
 	toto = 42
-	print(toto + 1)                         
+	print(toto + 1)
 	print(toto)
 
 ..	admonition:: Sortie
@@ -79,7 +73,7 @@ Il peut arriver qu'un calcul avec une variable, disons ``x``, soit suivi de la m
 
 		94                                      
 
-*	Ligne 2 : L'expression $2 * x + 10$ est évaluée et la valeur obtenue (94) est réaffectée à ``x``. Ce type d'affectation (ligne 1 vs ligne 2) s'appelle une réaffectation. La valeur initiale d'affectation (ici 42) est « perdue ».
+*	Ligne 2 : L'expression :math:`2 * x + 10` est évaluée et la valeur obtenue (94) est réaffectée à ``x``. Ce type d'affectation (ligne 1 vs ligne 2) s'appelle une réaffectation. La valeur initiale d'affectation (ici 42) est « perdue ».
 Augmenter de ``1`` la valeur d'une variable (comme ``toto`` ci-dessous) s'appelle une **incrémentation**.
 
 ..	code-block:: python
@@ -88,14 +82,14 @@ Augmenter de ``1`` la valeur d'une variable (comme ``toto`` ci-dessous) s'appell
 	toto = 42
 	print(toto)
 
-	toto = toto + 1                         
-	
-	..	admonition:: Sortie
+	toto = toto + 1
 
-		::
+..	admonition:: Sortie
 
-			42                                      
-			43
+	::
+
+		42                                      
+		43
 
 *	Ligne 4 : ``toto + 1`` est évalué et la valeur obtenue (43) est réaffectée à ``toto``.
 
