@@ -3,8 +3,8 @@ Utilisation d'un «compteur»
 
 ..	admonition:: Prérequis
 
-	*	nstruction if dans une boucle for
-	*	pérations avec des variables
+	*	Instruction if dans une boucle for
+	*	Opérations avec des variables
 
 ..	admonition:: Résumé
 
@@ -41,7 +41,7 @@ Voici le code implémentant la technique du compteur pour le problème posé ci-
 ..	code-block:: python
 	:linenos:
 
-	t = [12, 81, 82, 9, 31, 65, 46]         
+	t = [12, 81, 82, 9, 31, 65, 46]
 	cpt = 0
 	i = 0
 

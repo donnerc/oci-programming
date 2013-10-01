@@ -31,6 +31,7 @@ Notions fondamentales de programmation
     :glob:
     :maxdepth: 2
 
+    notions/compteur
     notions/while
 
 Devoirs
