@@ -15,8 +15,8 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre �
 
 
 
-Théorie France IOI
-==================
+Théorie France IOI, niveau 01
+=============================
 
 ..  toctree::
     :glob:
@@ -29,39 +29,44 @@ Notions fondamentales de programmation
 
 ..  toctree::
     :glob:
-    :maxdepth: 2
+    :maxdepth: 1
 
+    notions/commentaires
     notions/types-donnees
     notions/operations-variables
-    notions/compteur
+    notions/utilisation-compteur
     notions/while
 
-Devoirs
-=======
 
-..  toctree::
-    :glob:
-    :maxdepth: 1
 
-    devoirs/*
+..  only:: html
 
-GitHub
-======
+    Devoirs
+    =======
 
-..  toctree::
-    :glob:
-    :maxdepth: 1
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
 
-    annexes/github/premiere-utilisation
+        devoirs/*
 
-Annexes
-=======
+    GitHub
+    ======
 
-..  toctree::
-    :glob:
-    :maxdepth: 1
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
 
-    annexes/*
+        annexes/github/premiere-utilisation
+
+    Annexes
+    =======
+
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
+
+        annexes/*
 
 
     

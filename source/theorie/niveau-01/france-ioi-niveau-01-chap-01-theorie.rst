@@ -29,7 +29,7 @@ Attention aux parenthèses !
 Si on oublie les parenthèses, cela produit une des erreurs suivantes :
 
 ::
-		
+
 	>>> print("bonjour"
 	SyntaxError: unexpected EOF while parsing
 

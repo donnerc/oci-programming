@@ -261,3 +261,51 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
+
+from docutils.parsers.rst import Directive
+class ReallyOnly(Directive):
+    """
+    Directive to only include text if the given tag(s) are enabled.
+    """
+    has_content = True
+    required_arguments = 1
+    optional_arguments = 0
+    final_argument_whitespace = True
+    option_spec = {}
+
+    def run(self):
+        from docutils import nodes
+        from sphinx import addnodes
+        from sphinx.util.nodes import set_source_info
+
+        node = addnodes.only()
+        node.document = self.state.document
+        set_source_info(self, node)
+        node['expr'] = self.arguments[0]
+
+        # hack around title style bookkeeping
+        surrounding_title_styles = self.state.memo.title_styles
+        surrounding_section_level = self.state.memo.section_level
+        self.state.memo.title_styles = []
+        self.state.memo.section_level = 0
+        try:
+            result = self.state.nested_parse(self.content, 0, node,
+                                             match_titles=1)
+            depth = len(surrounding_title_styles)
+            if self.state.memo.title_styles:
+                style = self.state.memo.title_styles[0]
+                if style in surrounding_title_styles:
+                    depth = surrounding_title_styles.index(style)
+            parent = self.state.parent
+            for i in xrange(len(surrounding_title_styles) - depth):
+                if parent.parent:
+                    parent = parent.parent
+            parent.append(node)
+        finally:
+            self.state.memo.title_styles = surrounding_title_styles
+            self.state.memo.section_level = surrounding_section_level
+        return []
+
+def setup(app):
+    # from sphinx.directives import Only
+    app.add_directive('only', ReallyOnly)
