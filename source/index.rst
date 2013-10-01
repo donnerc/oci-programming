@@ -15,14 +15,23 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre �
 
 
 
-Théorie
-=======
+Théorie France IOI
+==================
 
 ..  toctree::
     :glob:
     :maxdepth: 2
 
     theorie/niveau-01/*
+
+Notions fondamentales de programmation
+======================================
+
+..  toctree::
+    :glob:
+    :maxdepth: 2
+
+    notions/while
 
 Devoirs
 =======
