@@ -3,9 +3,15 @@ Boucle while
 
 ..	admonition:: Prérequis
 
-	*	
+	*	Affichage amélioré
+	*	Affichage et passage à la ligne
+	*	Les booléens
+	*	Réaffectation de variable
 
 ..	admonition:: Résumé
+
+	Exemple typique d'utilisation d'une boucle ``while``. Description syntaxique,
+	contexte d'utilisation, examen pas à pas de son exécution.
 
 
 Un problème typique
@@ -17,15 +23,23 @@ premier multiple de 10 supérieur ou égal à :math:`n`. Si par exemple
 10 et il n'y en pas d'autre entre :math:`42` et :math:`50`. Voici d'autres
 exemples :
 
-:math:`n`	2013	420	0
-:math:`m`	2020	420	0
+..	list-table::
+
+	-	*	:math:`n`
+		*	2013
+		*	420
+		*	0
+	-	*	:math:`m`
+		*	2020
+		*	420
+		*	0
 
 L'idée à implémenter
 --------------------
 
-Les multiples de :math:`10$ sont les entiers : $0,10,20,30$ etc. Ils s'écrivent sous la forme $10k$ où $k$ varie à partir de $0`.
+Les multiples de :math:`10` sont les entiers : :math:`0,10,20,30` etc. Ils s'écrivent sous la forme :math:`10k` où :math:`k` varie à partir de :math:`0`.
 
-Pour trouver :math:`m$, on parcourt les multiples de $10$ depuis $0$ et on s'arrête une fois qu'on a atteint ou dépassé l'entier n donné. Autrement dit, on énumère les multiples $m$ de $10$ tant que $m<n$. Le parcours est montré dans le tableau ci-dessous où on suppose que $n=42`.
+Pour trouver :math:`m`, on parcourt les multiples de :math:`10` depuis :math:`0` et on s'arrête une fois qu'on a atteint ou dépassé l'entier n donné. Autrement dit, on énumère les multiples :math:`m` de :math:`10` tant que :math:`m<n`. Le parcours est montré dans le tableau ci-dessous où on suppose que :math:`n=42`.
 
 ..	list-table::
 
@@ -66,7 +80,7 @@ Le code suivant répond au problème posé :
 	    k = k + 1
 
 	print(10 * k)
-	while_typique.py.output
+	
 
 ..	admonition:: Sortie
 
@@ -146,25 +160,28 @@ Modifions le code précédent :file:`while_typique.py` pour mieux comprendre l'e
 
 ..	admonition:: Sortie
 
-	avant while : k= 0
+	..	code-block:: txt
+		:linenos:
 
-	debut while : k= 0 10*k= 0
-	fin while : k= 1
+		avant while : k= 0
 
-	debut while : k= 1 10*k= 10             
-	fin while : k= 2
+		debut while : k= 0 10*k= 0
+		fin while : k= 1
 
-	debut while : k= 2 10*k= 20
-	fin while : k= 3
+		debut while : k= 1 10*k= 10             
+		fin while : k= 2
 
-	debut while : k= 3 10*k= 30
-	fin while : k= 4
+		debut while : k= 2 10*k= 20
+		fin while : k= 3
 
-	debut while : k= 4 10*k= 40
-	fin while : k= 5
+		debut while : k= 3 10*k= 30
+		fin while : k= 4
 
-	apres while
-	50
+		debut while : k= 4 10*k= 40
+		fin while : k= 5
+
+		apres while
+		50
 
 En plus du code initial, :file:`while_typique_affichage.py` contient des instructions
 d'affichage (lignes 3, 7, 9 et 11) et des instructions de sauts de ligne

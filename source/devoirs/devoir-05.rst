@@ -26,4 +26,4 @@ Programmation
 =============
 
 *   Terminer le chapitre 7 du niveau 01 de France IOI
-*   Chapitre 8 de France IOI jusqu'à *4 - département de pédagogie : le c'est plus, c'est le moins"
+*   Chapitre 8 de France IOI jusqu'à *4 - département de pédagogie : le c'est plus, c'est le moins"*
