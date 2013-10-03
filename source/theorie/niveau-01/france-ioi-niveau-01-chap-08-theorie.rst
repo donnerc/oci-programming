@@ -101,3 +101,12 @@ que ``10`` et le programme ne s'arrêtera jamais !
 
 	Lorsqu'un programme ne s'arrête jamais car il est resté piégé dans une
 	boucle, on dit de manière plus courte que le programme boucle.
+
+
+
+la boucle while décortiquée
+===========================
+
+..	note::
+
+	Il fortement conseillé de lire cette explication de la boucle while : 

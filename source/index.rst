@@ -13,6 +13,10 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre �
 
     Si vous rencontrez des erreurs d'orthographe ou d'autres problèmes sur ce site, merci de bien vouloir les signaler sur le dépôt github du cours : https://github.com/donnerc/oci-programming/issues
 
+..  admonition:: Version PDF de la Théorie
+
+    **Téléchargement** : :download:`theorie.pdf <files/theorie.pdf>`
+
 
 
 Théorie France IOI, niveau 01
@@ -35,8 +39,19 @@ Notions fondamentales de programmation
     notions/types-donnees
     notions/operations-variables
     notions/utilisation-compteur
-    notions/while
+    notions/while    
 
+
+Débogage de programmes
+======================
+
+
+..  toctree::
+    :glob:
+    :maxdepth: 1
+
+    debugging/intro
+    debugging/EOFError
 
 
 ..  only:: html
@@ -66,7 +81,7 @@ Notions fondamentales de programmation
         :glob:
         :maxdepth: 1
 
-        annexes/*
+        annexes/*        
 
 
     

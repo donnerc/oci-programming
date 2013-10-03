@@ -20,3 +20,12 @@ Visualisation du déroulement d'un programme Python
 L'outil "Python Tutor" est un excellent moyen de comprendre le déroulement d'un programme. Pour programmer de manière intelligente, il est indispensable d'acquérir une bonne compréhension de la structure des données qui sont manipulées par le programme.
 
 Cet outil est particulièrement intéressant pour trouver des erreurs dans un programme qui ne fonctionne pas comme il le devrait.
+
+Interpréter les programmes Python sur le Web
+============================================
+
+*	https://koding.com/ Met à disposition une machine virtuelle Linux Ubuntu
+	permettant d'exécuter n'importe quel code et d'installer n'importe quel
+	package avec ``sudo apt-get install``
+*	http://ideone.com/
+*	https://c9.io/
