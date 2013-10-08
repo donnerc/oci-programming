@@ -53,10 +53,10 @@ Parmi les nombres binaires suivants, indiquer ceux qui sont pairs :
 #)  :math:`1001010010001110010010001001001111000101`
 #)  :math:`1001010010001110010010001001001111000110`
 
-..  _notion-conversion-binaire-decimal-exercice-3:
+..  _notion-conversion-binaire-decimal-bin2dec:
 
-Exercice 3
-----------
+Problème (conversion du binaire en décimal)
+-------------------------------------------
 
 ..  admonition:: Donnée
 
@@ -75,6 +75,10 @@ Exercice 3
     ::
 
         42
+
+..  note::
+
+    Valider votre exercice à l'adresse http://donner-online.ch/wp/?p=5
 
 
 ..  tip::

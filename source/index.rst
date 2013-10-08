@@ -35,7 +35,9 @@ Théorie France IOI, niveau 02
     :glob:
     :maxdepth: 2
 
-    theorie/niveau-02/*
+    theorie/niveau-02/*france*
+    theorie/niveau-02/charger-module
+    theorie/niveau-02/arrondis
 
 Notions fondamentales de programmation
 ======================================
