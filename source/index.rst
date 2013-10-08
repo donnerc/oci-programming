@@ -41,6 +41,8 @@ Notions fondamentales de programmation
     notions/utilisation-compteur
     notions/while    
 
+    notions/conversion-binaire-decimal
+
 
 Débogage de programmes
 ======================
