@@ -39,15 +39,15 @@
 			"file": "source/index.rst",
 			"settings":
 			{
-				"buffer_size": 1956,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "source/debugging/intro.rst",
 			"settings":
 			{
-				"buffer_size": 8189,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "source/annexes/github/premiere-utilisation.rst",
 			"settings":
 			{
-				"buffer_size": 6047,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "source/annexes/outils-dev.rst",
 			"settings":
 			{
-				"buffer_size": 1672,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "source/annexes/conseils.rst",
 			"settings":
 			{
-				"buffer_size": 832,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "source/annexes/documents-interessants.rst",
 			"settings":
 			{
-				"buffer_size": 123,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,7 +87,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 4200,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +95,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 5885,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +103,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 9123,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +111,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 6328,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 1213,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -127,7 +127,7 @@
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 			"settings":
 			{
-				"buffer_size": 2056,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,15 +143,15 @@
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 			"settings":
 			{
-				"buffer_size": 518,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 			"settings":
 			{
-				"buffer_size": 145,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -159,15 +159,15 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 5498,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "source/devoirs/devoir-03.rst",
 			"settings":
 			{
-				"buffer_size": 3372,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -184,7 +184,7 @@
 			"file": "source/devoirs/devoir-01.rst",
 			"settings":
 			{
-				"buffer_size": 1720,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -192,7 +192,7 @@
 			"file": "source/devoirs/devoir-04.rst",
 			"settings":
 			{
-				"buffer_size": 1428,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -200,7 +200,7 @@
 			"file": "source/devoirs/devoir-02.rst",
 			"settings":
 			{
-				"buffer_size": 2938,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -710,15 +710,15 @@
 					"file": "source/index.rst",
 					"settings":
 					{
-						"buffer_size": 1956,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1485,
-								1485
+								0,
+								0
 							]
 						],
 						"settings":
@@ -817,7 +817,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -827,15 +827,15 @@
 					"file": "source/debugging/intro.rst",
 					"settings":
 					{
-						"buffer_size": 8189,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8157,
-								8157
+								0,
+								0
 							]
 						],
 						"settings":
@@ -932,7 +932,7 @@
 							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3045.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -942,15 +942,15 @@
 					"file": "source/annexes/github/premiere-utilisation.rst",
 					"settings":
 					{
-						"buffer_size": 6047,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								920,
-								920
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1058,7 +1058,7 @@
 					"file": "source/annexes/outils-dev.rst",
 					"settings":
 					{
-						"buffer_size": 1672,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -1173,15 +1173,15 @@
 					"file": "source/annexes/conseils.rst",
 					"settings":
 					{
-						"buffer_size": 832,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								832,
-								832
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1288,15 +1288,15 @@
 					"file": "source/annexes/documents-interessants.rst",
 					"settings":
 					{
-						"buffer_size": 123,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1403,7 +1403,7 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 4200,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -1509,7 +1509,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 347.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1519,15 +1519,15 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 5885,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								41
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1636,15 +1636,15 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 9123,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3833,
-								3833
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1743,7 +1743,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 346.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1753,14 +1753,14 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 6328,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
+								0,
 								0
 							]
 						],
@@ -1869,15 +1869,15 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 1213,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1213,
-								1213
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1984,15 +1984,15 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 					"settings":
 					{
-						"buffer_size": 2056,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1688,
-								1688
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2218,7 +2218,7 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 					"settings":
 					{
-						"buffer_size": 518,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -2335,15 +2335,15 @@
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
-						"buffer_size": 145,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2450,15 +2450,15 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 5498,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								919,
-								919
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2557,7 +2557,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2567,14 +2567,14 @@
 					"file": "source/devoirs/devoir-03.rst",
 					"settings":
 					{
-						"buffer_size": 3372,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
+								0,
 								0
 							]
 						],
@@ -2800,15 +2800,15 @@
 					"file": "source/devoirs/devoir-01.rst",
 					"settings":
 					{
-						"buffer_size": 1720,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								449,
-								449
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2915,7 +2915,7 @@
 					"file": "source/devoirs/devoir-04.rst",
 					"settings":
 					{
-						"buffer_size": 1428,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -3031,15 +3031,15 @@
 					"file": "source/devoirs/devoir-02.rst",
 					"settings":
 					{
-						"buffer_size": 2938,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								516,
-								516
+								0,
+								0
 							]
 						],
 						"settings":
