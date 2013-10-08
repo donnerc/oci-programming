@@ -28,6 +28,15 @@ Théorie France IOI, niveau 01
 
     theorie/niveau-01/*
 
+Théorie France IOI, niveau 02
+=============================
+
+..  toctree::
+    :glob:
+    :maxdepth: 2
+
+    theorie/niveau-02/*
+
 Notions fondamentales de programmation
 ======================================
 

@@ -35,5 +35,11 @@ résoudre le problème de programmation qui y est proposé.
 Programmation
 =============
 
-*   Terminer le chapitre 7 du niveau 01 de France IOI
-*   Chapitre 8 de France IOI jusqu'à *4 - département de pédagogie : le c'est plus, c'est le moins"*
+*   Terminer le chapitre 8 du niveau 1 et mettre les exercices sur GitHub
+
+*   Commencer et avancer dans le niveau 2. Faites au minimum jusqu'au
+    problème 13 "Construction de maisons". 
+    
+    ..  note::
+
+        Il n'est pas nécessaire de mettre le code sur GitHub pour le niveau 2
