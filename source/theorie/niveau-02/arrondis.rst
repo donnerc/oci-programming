@@ -60,7 +60,9 @@ Comment se souvenir des noms de ces fonctions ?
 
 ..  note::
 
-    Comme vous avez pu le voir, le résultat donné par ces fonctions est à chaque fois un entier et pas un nombre décimal représentant un entier. Dit autrement, on a bien "12" et pas "12.0" comme résultat.
+    Comme vous avez pu le voir, le résultat donné par ces fonctions est à
+    chaque fois un entier et pas un nombre décimal représentant un entier. Dit
+    autrement, on a bien "12" et pas "12.0" comme résultat.
 
 Faire des arrondis (au plus proche)
 ===================================
@@ -102,6 +104,7 @@ Et en voici une illustration visuelle
 
 ..  figure:: figures/roudings.png
     :align: center
+    :width: 60%
 
 
 L'arrondi bancaire est appelé ainsi car utilisé par les banques. En effet si
@@ -131,4 +134,8 @@ Il s'agit donc d'un arrondi "bancaire" quand il y a deux choix possibles.
 
 ..  note::
 
-    En pratique le type d'arrondi utilisé pour calculer un arrondi au plus proche importe peu puisque les deux valeurs sont possibles, il s'agit juste d'une convention qui est prise dans un langage de programmation donné (ou en mathématique). Les exercices sur le site sont insensibles au type d'arrondi au plus proche utilisé.
+    En pratique le type d'arrondi utilisé pour calculer un arrondi au plus
+    proche importe peu puisque les deux valeurs sont possibles, il s'agit
+    juste d'une convention qui est prise dans un langage de programmation
+    donné (ou en mathématique). Les exercices sur le site sont insensibles au
+    type d'arrondi au plus proche utilisé.
