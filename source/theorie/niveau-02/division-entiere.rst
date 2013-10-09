@@ -63,8 +63,8 @@ alors
 
 ..  math::
 
-    dividende = diviseur * quotient + reste
-    0 \leq reste < diviseur
+    \text{dividende} = \text{diviseur} \times \text{quotient} + \text{reste} \\
+    0 \leq \text{reste} < \text{diviseur}
 
 Un exemple fréquent d'utilisation de ces opérateurs :
 
@@ -129,7 +129,7 @@ calcul de la gauche vers la droite (règle usuelle en mathématiques).
 
 ..  note::
 
-    Vous avez PU voir sur cet exemple que sans parenthèses on peut rapidement se
+    Vous avez pu voir sur cet exemple que sans parenthèses on peut rapidement se
     poser des questions et risquer de faire des erreurs (ne pas faire le bon
-    calcul). On tâchera donc de toujours mettre des parenthèses quand le calcul
+    calcul). On tâchera donc de **toujours** mettre des parenthèses quand le calcul
     peut sembler ambigu.
