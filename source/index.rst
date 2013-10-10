@@ -40,6 +40,7 @@ Théorie France IOI, niveau 02
     theorie/niveau-02/arrondis
     theorie/niveau-02/division-entiere
     theorie/niveau-02/vraie-boucle-for
+    theorie/niveau-02/listes
 
 Notions fondamentales de programmation
 ======================================
