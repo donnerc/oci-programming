@@ -308,9 +308,33 @@ suite. Attention cependant :
 	  File "./run/exe", line 2, in 
 	    print(hauteurs[-4])
 	IndexError: list index out of range
-	
+
 On obtient une erreur pour l'indice "-4" car le quatrième en partant de la fin
 n'existe pas.
 
 Les indices négatifs sont donc valables en Python mais nous vous conseillons
 de ne pas les utiliser car ils sont source d'erreurs.
+
+Calculer la taille d'un tableau
+===============================
+
+..	note::
+
+	Original : http://www.france-ioi.org/algo/course.php?idChapter=651&idCourse=2465&iOrder=20
+
+Dans les exercices de ce chapitre, vous manipuliez toujours des tableaux dont
+vous connaissiez la taille a priori. Dans le futur, vous serez amenés à
+manipuler des tableaux dont vous ne connaitrez la taille a priori, il vous
+faudra donc la calculer !
+
+Supposons qu'on ai déclaré un tableau de la manière suivante :
+
+::
+
+	hauteur = [10, 48, -5, 99, -20, 4, 32, 16, 0, 100, 42]
+
+alors, si on souhaite connaître sa taille, il suffit de faire :
+
+::
+
+	tailleHauteur = len(hauteur)
