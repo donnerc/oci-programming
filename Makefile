@@ -19,6 +19,9 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) sou
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source
 
+PROF = -t prof -t corrige
+CORRIGE = -t corrige
+
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
 
 help:
@@ -183,3 +186,15 @@ puthtml:
 
 viewhtml:
 	firefox build/html/index.html &	
+
+profhtml:
+	$(SPHINXBUILD) -b html $(PROF) $(ALLSPHINXOPTS) $(BUILDDIR)/prof/html
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/prof/html."
+
+corrigehtml:
+	$(SPHINXBUILD) -b html  $(CORRIGE) $(ALLSPHINXOPTS) $(BUILDDIR)/corrige/html
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/corrige/html."
+
+all: html corrigehtml profhtml

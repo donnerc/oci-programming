@@ -13,9 +13,27 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre �
 
     Si vous rencontrez des erreurs d'orthographe ou d'autres problèmes sur ce site, merci de bien vouloir les signaler sur le dépôt github du cours : https://github.com/donnerc/oci-programming/issues
 
-..  admonition:: Version PDF de la Théorie
+..  only:: html
 
-    **Téléchargement** : :download:`theorie.pdf <files/theorie.pdf>`
+    ..  admonition:: Version PDF de la Théorie
+
+        **Téléchargement** : :download:`theorie.pdf <files/theorie.pdf>`
+
+..  only:: prof
+
+    Suivi des étudiants et grading automatique
+    ==========================================
+
+    ..  note:: Section prof uniquement
+
+        Cette section traite de la mise en place de la webapp de suivi des
+        étudiants
+
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
+
+        plateform/*        
 
 
 
@@ -70,6 +88,7 @@ Débogage de programmes
     debugging/EOFError
 
 
+
 ..  only:: html
 
     Devoirs
@@ -89,6 +108,7 @@ Débogage de programmes
         :maxdepth: 1
 
         annexes/github/premiere-utilisation
+        annexes/github/basic-usage
 
     Annexes
     =======
