@@ -185,7 +185,7 @@ puthtml:
 
 
 viewhtml:
-	firefox build/html/index.html &	
+	firefox build/prof/html/index.html &	
 
 profhtml:
 	$(SPHINXBUILD) -b html $(PROF) $(ALLSPHINXOPTS) $(BUILDDIR)/prof/html

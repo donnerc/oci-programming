@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Git",
+				"GitHub"
+			],
+			[
 				"pro",
 				"problème"
 			],
@@ -31,7 +35,7 @@
 			"file": "source/conf.py",
 			"settings":
 			{
-				"buffer_size": 10400,
+				"buffer_size": 10425,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,15 +43,15 @@
 			"file": "source/index.rst",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
+				"buffer_size": 2906,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "source/debugging/intro.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 8189,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +59,7 @@
 			"file": "source/annexes/github/premiere-utilisation.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 6047,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +67,7 @@
 			"file": "source/annexes/outils-dev.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1672,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +75,7 @@
 			"file": "source/annexes/conseils.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 832,
 				"line_ending": "Windows"
 			}
 		},
@@ -79,7 +83,7 @@
 			"file": "source/annexes/documents-interessants.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 123,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,7 +91,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4200,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +99,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5885,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +107,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 9123,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +115,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 6328,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,7 +123,7 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1213,
 				"line_ending": "Windows"
 			}
 		},
@@ -140,14 +144,6 @@
 			}
 		},
 		{
-			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 			"settings":
 			{
@@ -159,20 +155,79 @@
 			"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
+				"buffer_size": 5498,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "source/devoirs/devoir-03.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3372,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"file": "source/devoirs/devoir-07.rst",
+			"settings":
+			{
+				"buffer_size": 2930,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/donnerc/oci2013/oci-prog-exos/Makefile",
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/donnerc/oci2013/oci-prog-exos/update.sh",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/annexes/github/basic-usage.rst",
+			"settings":
+			{
+				"buffer_size": 1099,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/annexes/koding/tuto-01-prise-en-mains.rst",
+			"settings":
+			{
+				"buffer_size": 4028,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/annexes/koding/tuto-02-cloner-depot-git.rst",
+			"settings":
+			{
+				"buffer_size": 4401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/annexes/koding/cours-01-koding-com.rst",
+			"settings":
+			{
+				"buffer_size": 2692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
 			"file": "source/theorie/niveau-01/commentaires.rst",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -184,7 +239,7 @@
 			"file": "source/devoirs/devoir-01.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1720,
 				"line_ending": "Windows"
 			}
 		},
@@ -192,7 +247,7 @@
 			"file": "source/devoirs/devoir-04.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1428,
 				"line_ending": "Windows"
 			}
 		},
@@ -200,7 +255,7 @@
 			"file": "source/devoirs/devoir-02.rst",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 2938,
 				"line_ending": "Windows"
 			}
 		}
@@ -208,9 +263,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 54.0,
 		"selected_items":
 		[
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"conv spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"restr",
+				"Set Syntax: Sublime reStructuredText"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -226,14 +293,6 @@
 			[
 				"python sy",
 				"Python Anywhere Editor: Sync File"
-			],
-			[
-				"restr",
-				"Set Syntax: Sublime reStructuredText"
-			],
-			[
-				"conv spa",
-				"Indentation: Convert to Spaces"
 			],
 			[
 				"rest",
@@ -380,7 +439,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -397,6 +456,8 @@
 	},
 	"file_history":
 	[
+		"/home/donnerc/oci2013/oci-prog-exos/niveau-02/create.sh",
+		"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/devoirs-etudiants/source/devoirs/niveau-01_chapitre-8-repetitions-tant-que_departement-de-pedagogie--le-c-est-plus-c-est-moins--entrainement.py.rst",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-prog-exos/niveau-01/chapitres.py",
 		"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/devoirs-etudiants/update-dirs.py",
@@ -459,6 +520,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\n\\n",
+			"=",
 			" \n",
 			"(Etudiant\\((\".+\").*)",
 			"\\t",
@@ -571,12 +634,13 @@
 		"regex": true,
 		"replace_history":
 		[
+			"#",
 			"\\2 = \\1",
 			"int(input())",
 			"&",
 			"com"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -585,7 +649,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -593,15 +657,15 @@
 					"file": "source/conf.py",
 					"settings":
 					{
-						"buffer_size": 10400,
+						"buffer_size": 10425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1251,
+								1251
 							]
 						],
 						"settings":
@@ -710,15 +774,15 @@
 					"file": "source/index.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2906,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2290,
+								2290
 							]
 						],
 						"settings":
@@ -827,15 +891,15 @@
 					"file": "source/debugging/intro.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 8189,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								520,
+								520
 							]
 						],
 						"settings":
@@ -929,7 +993,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -942,7 +1007,7 @@
 					"file": "source/annexes/github/premiere-utilisation.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 6047,
 						"regions":
 						{
 						},
@@ -1058,7 +1123,7 @@
 					"file": "source/annexes/outils-dev.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1672,
 						"regions":
 						{
 						},
@@ -1173,7 +1238,7 @@
 					"file": "source/annexes/conseils.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 832,
 						"regions":
 						{
 						},
@@ -1288,15 +1353,15 @@
 					"file": "source/annexes/documents-interessants.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								123,
+								123
 							]
 						],
 						"settings":
@@ -1403,7 +1468,7 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4200,
 						"regions":
 						{
 						},
@@ -1519,7 +1584,7 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5885,
 						"regions":
 						{
 						},
@@ -1636,7 +1701,7 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 9123,
 						"regions":
 						{
 						},
@@ -1753,7 +1818,7 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 6328,
 						"regions":
 						{
 						},
@@ -1869,7 +1934,7 @@
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1213,
 						"regions":
 						{
 						},
@@ -2215,123 +2280,6 @@
 				},
 				{
 					"buffer": 14,
-					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/index.rst",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
@@ -2446,11 +2394,128 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 15,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "source/devoirs/devoir-03.rst",
+					"settings":
+					{
+						"buffer_size": 3372,
 						"regions":
 						{
 						},
@@ -2564,111 +2629,128 @@
 				},
 				{
 					"buffer": 17,
-					"file": "source/devoirs/devoir-03.rst",
+					"file": "source/devoirs/devoir-07.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1444,
+								1444
 							]
 						],
 						"settings":
 						{
-							"annotations":
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/home/donnerc/oci2013/oci-prog-exos/Makefile",
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/home/donnerc/oci2013/oci-prog-exos/update.sh",
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								110
-							],
-							"gjslint_options":
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 42.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "source/annexes/github/basic-usage.rst",
+					"settings":
+					{
+						"buffer_size": 1099,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
+								1099,
+								1099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "source/annexes/koding/tuto-01-prise-en-mains.rst",
+					"settings":
+					{
+						"buffer_size": 4028,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
+								61,
+								61
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -2680,7 +2762,62 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 22,
+					"file": "source/annexes/koding/tuto-02-cloner-depot-git.rst",
+					"settings":
+					{
+						"buffer_size": 4401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "source/annexes/koding/cours-01-koding-com.rst",
+					"settings":
+					{
+						"buffer_size": 2692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1892,
+								1892
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 858.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": "source/theorie/niveau-01/commentaires.rst",
 					"settings":
 					{
@@ -2796,11 +2933,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 25,
 					"file": "source/devoirs/devoir-01.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1720,
 						"regions":
 						{
 						},
@@ -2911,11 +3048,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 26,
 					"file": "source/devoirs/devoir-04.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1428,
 						"regions":
 						{
 						},
@@ -3027,11 +3164,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 27,
 					"file": "source/devoirs/devoir-02.rst",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2938,
 						"regions":
 						{
 						},
@@ -3197,11 +3334,51 @@
 		[
 			[
 				"inde",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/index.rst"
+				"/home/donnerc/oci2013/oci-programming/source/index.rst"
+			],
+			[
+				"devoir",
+				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
 			],
 			[
 				"",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/devoirs-etudiants/update-dirs.py"
+				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
+			],
+			[
+				"tuto1",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/tuto-01-prise-en-mains.rst"
+			],
+			[
+				"tut02",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/tuto-02-cloner-depot-git.rst"
+			],
+			[
+				"dev7",
+				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
+			],
+			[
+				"kd",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/cours-01-koding-com.rst"
+			],
+			[
+				"tuto02",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/tuto-02-cloner-depot-git.rst"
+			],
+			[
+				"conf",
+				"/home/donnerc/oci2013/oci-programming/source/conf.py"
+			],
+			[
+				"prise",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/tuto-01-prise-en-mains.rst"
+			],
+			[
+				"tut",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/github/basic-usage.rst"
+			],
+			[
+				"index",
+				"/home/donnerc/oci2013/oci-programming/source/index.rst"
 			],
 			[
 				"premi",
@@ -3228,20 +3405,12 @@
 				"/C/Users/donnerc/Desktop/chapitre-tests-condition.csv"
 			],
 			[
-				"devoir",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-04.rst"
-			],
-			[
 				"ocn",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/conf.py"
 			],
 			[
 				"onf",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst"
-			],
-			[
-				"index",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/index.rst"
 			],
 			[
 				"makefile",
@@ -3320,10 +3489,6 @@
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-02.rst"
 			],
 			[
-				"conf",
-				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/conf.py"
-			],
-			[
 				"devoi",
 				"/D/Dropbox/CS/oc_inf/2013-2015/oci-programming/source/devoirs/devoir-02.rst"
 			],
@@ -3381,7 +3546,7 @@
 		[
 			[
 				"",
-				"/D/Dropbox/todos/todos.sublime-project"
+				"/home/donnerc/nodejs-learning/nodejs-express-learn.sublime-project"
 			]
 		],
 		"width": 380.0

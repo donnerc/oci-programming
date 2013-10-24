@@ -14,7 +14,7 @@ Cloner un dépôt existant
 ========================
 
 En général, les développeurs ne travaillent pas en collant leur code dans
-l'éditeur de GitHub, mais utilise leur machine locale pour développer le code
+l'éditeur de GitHub, mais utilisent leur machine locale pour développer le code
 pour le *pousser* ensuite sur Github.
 
 Pour cloner un dépôt, il faut connaitre son url GitHub qui ressemble à quelque

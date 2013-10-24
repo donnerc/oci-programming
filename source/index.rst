@@ -75,6 +75,23 @@ Notions fondamentales de programmation
 
     notions/conversion-binaire-decimal
 
+..  only:: prof
+
+    Recueil de programmes
+    =====================
+
+
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
+
+        recueil_programmes/intro
+        recueil_programmes/variables_types
+        recueil_programmes/operateurs
+        recueil_programmes/boucles-for
+        recueil_programmes/boucles-while
+        recueil_programmes/conditions
+
 
 Débogage de programmes
 ======================
@@ -108,7 +125,17 @@ Débogage de programmes
         :maxdepth: 1
 
         annexes/github/premiere-utilisation
-        annexes/github/basic-usage
+        .. annexes/github/basic-usage
+
+    Plateforme Koding et commandes Linux
+    ====================================
+
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
+
+        annexes/koding/tuto-01*  
+        annexes/koding/tuto-02*
 
     Annexes
     =======
