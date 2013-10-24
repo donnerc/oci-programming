@@ -2,84 +2,93 @@
 Devoir 07 -- pour le mardi 05.11.2013
 #####################
 
+Plateforme Koding  (environ 15 minutes)
+=======================================
 
-Plateforme http://koding.com et commandes UNIX
-============================
+..  note::
 
-Dans cette partie, vous allez découvrir la plateforme de développement en
-ligne *Koding* et l'utiliser pour mettre à jour votre dépôt GitHub avec le
-code de base des problèmes du niveau 02 de France IOI.
+    Il est très important que vous ayez accès à la plateforme Koding car nous
+    allons l'utiliser lors du prochain cours. Si vous ne vous souvenez pas du
+    mot de passe fixé en début d'année, merci de le récupérer.
 
-Dans la foulée, vous allez avoir une première expérience de "Hacker" en
-travaillant non plus avec une souris, mais uniquemnet au clavier en ligne de
-commandes.
+Opérations à effectuer sur la machine virtuelle Koding
+------------------------------------------------------
 
-Taĉhes à effectuer (dans l'ordre)
-------------------
+#)  Vous identifier sur la plateforme Koding (http://koding.com).
+    Il est possible de le faire à
+    l'aide du compte GitHub si vous aviez créé votre compte Koding à l'aide du
+    compte GitHub.
 
-#)	Suivre la vidéo :ref:`koding-tuto-01` et retenir les notions essentielles (prendre des notes dans votre cahier). Effectuer les opérations montrées dans la vidéo sur la plateforme http://koding.com
+    ..  admonition:: TODO
 
-#)	Idem pour la section :ref:`koding-tuto-02`
+        Créer un compte http://koding.com en cliquant sur le bouton "Sign up with
+        GitHub" si vous aviez créé le compte Koding avec votre compte GitHub
+        ou "Sign up with email" dans le cas contraire.
 
-#)	Suivre la vidéo :ref:`koding-tuto-03` pour voir comment éditer votre
-	code Python directement sur la plateforme koding.
+#)  Visionner la vidéo ci-dessous et entrer les commandes montrées dans le
+    terminal.
 
-	..	note::
+    ..  only:: html
 
-		Après cette partie, vous devriez avoir installé Python 3
-		sur votre machine virtuelle Koding à l'aide de la commande
+        Démonstration vidéo (9 minutes)
+        +++++++++++++++++++++++++++++++
 
-		::
+        ..  youtube:: 3t0WZ9gwVbU
+            :width: 100%
 
-			sudo apt-get install python3
+    ..  admonition:: TODO
 
-#)	Mettre à jour votre dépôt GitHub en effectuant les opérations suivantes. Je vous conseille de copier-coller la troisième ligne qui doit être exactement recopiée et exécutée dans le Terminal et ce qui vous évitera de chercher comment faire le caractère spécial ``|`` nécessaires à la troisième ligne : 
+        Entrer les commandes suivantes dans le terminal
 
-	.. code-block:: bash
-		:linenos:
+        ::
 
-		cd
-		cd GitHub/oci-prog-exos
-		curl https://raw.github.com/donnerc/oci-prog-exos/master/niveau-02/create.sh | sh
+            sudo apt-get install git
+            git --version
+            sudo apt-get install python3
+            python3 --version
 
-#)	À ce stade votre dossier ``oci-prog-exos`` devrait contenir les éléments suivants si vous y exécutez la commande ``ls -al``, en particulier le dossier  ``ǹiveau-02`` dans lequel vous trouverez les données des exercices pour le niveau 2 de France IOI :
+            mkdir GitHub
+            cd GitHub
 
-	::
+        la ligne suivante doit être modifiée en remplaçant la partie
+        ``<url-de-votre-depot-oci-prog-exos>`` par l'url de votre
+        dépôt sur GitHub qui ressemble à
+        ``https://github.com/github-user/oci-prog-exos.git``.
+        La vidéo montre bien comment trouver cette URL sur le site 
+        de GitHub.
 
-		total 32
-		drwxrwxr-x  6 donnerc donnerc 4096 oct 24 00:22 .
-		drwxrwxr-x  5 donnerc donnerc 4096 oct 23 23:43 ..
-		drwxrwxr-x  8 donnerc donnerc 4096 oct 24 00:24 .git
-		-rw-rw-r--  1 donnerc donnerc  303 oct 23 23:43 .gitignore
-		drwxrwxr-x 10 donnerc donnerc 4096 oct 23 23:43 niveau-01
-		drwxrwxr-x  6 donnerc donnerc 4096 oct 24 00:24 niveau-02
-		-rw-rw-r--  1 donnerc donnerc   28 oct 23 23:43 README.md
-		drwxrwxr-x  2 donnerc donnerc 4096 oct 23 23:43 tmp
+        ::
+
+            git clone <url-de-votre-depot-oci-prog-exos>
+            cd oci-prog-exos
+
+        Cette ligne doit être recopiée exactement 
+
+        ::
+
+            curl https://raw.github.com/donnerc/oci-prog-exos/master/niveau-02/create.sh | sh
+
+            ls -al
+
+            git push
+
+    ..  note::
+
+        En visitant votre dépôt sur le site GitHub, vous verrez que les
+        fichiers de base du niveau 02 ont été ajoutés et que vous pouvez ainsi
+        copier-coller votre code dans ces fichiers de base nouvellement créés
 
 
-#)	Suivre la vidéo :ref:`koding-tuto-04` et mettre votre dépôt GitHub à jour
-	à l'aide des commandes suivantes :
+Programmation (France IOI) (environ 1 heure)
+==========================
 
-	..	code-block:: bash
-		:linenos:
+*   Terminer le chapitre 01 du niveau 02 de France IOI (Nombres à virgules et autres outils)
+*   Commencer le chapitre 02 du niveau 02 (tableaux) et aller jusqu'au problème 6 (étude de Marché)
+*   Compléter le `tableau de progression <https://docs.google.com/spreadsheet/ccc?key=0AgGjjCKHYVlXdHBQWUlwbHJHdTZFUmlEYUROcDR6enc&usp=drive_web#gid=0>`_
 
-		# se rendre dans le dossier personnel
-		cd 
-		# se rendre dans le dossier du dépôt git
-		cd GitHub/oci-prog-exos
+..  note::
 
-		# ajouter les changements effectués sur les fichiers Python dans la
-		# zone de transit (staging area)
-		git add .
+    N'hésitez pas à poser des questions si vous êtes bloqué sur un problème
 
-		# appliquer les changements dans l'historique des révisions
-		git commit -m "devoirs 07"
-
-		# pousser les changements sur GitHub
-		git push
-
-..
-	Programmation (France IOI)
-	==========================
-
-	*	Terminer le chapitre 01 du niveau 02 de France IOI
+*   consulter les :ref:`devoirs-08` qui donnent des précision sur le contenu
+    et le déroulement de l'examen

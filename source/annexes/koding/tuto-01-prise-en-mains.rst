@@ -38,10 +38,11 @@ Terminal et premières commandes shell
     ..  tip::
 
         Une bonne partie du cours sera donné sous forme de vidéos YouTube.
-        Pour en tirer le plein profit, il faut effectuer les opérations
+        Pour en tirer plein profit, il faut effectuer les opérations
         montrées et ne pas seulement faire le spectateur.
 
-        Il est également nécessaire de prendre des notes des éléments les plus importants.
+        Il est également nécessaire de prendre des notes des éléments les plus
+        importants.
 
         *   Il est conseillé de visionner la vidéo en plein écran et en haute
             résolution sur YouTube pour voir tous les détails.
@@ -141,14 +142,3 @@ Commandes shell expliquées dans cette vidéo
         rmdir GitHub
         mkdir GitHub
         cd GitHub
-
-
-
-
-
-Installater *git* et clôner le dépôt ``oci-prog-exos``
-======================================================
-
-
-
-

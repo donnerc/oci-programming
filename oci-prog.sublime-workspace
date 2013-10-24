@@ -43,7 +43,15 @@
 			"file": "source/index.rst",
 			"settings":
 			{
-				"buffer_size": 2906,
+				"buffer_size": 3265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/recueil_programmes/intro.rst",
+			"settings":
+			{
+				"buffer_size": 499,
 				"line_ending": "Unix"
 			}
 		},
@@ -171,7 +179,23 @@
 			"file": "source/devoirs/devoir-07.rst",
 			"settings":
 			{
-				"buffer_size": 2930,
+				"buffer_size": 2952,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/devoirs/devoir-08.rst",
+			"settings":
+			{
+				"buffer_size": 1662,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/devoirs/devoir-09.rst",
+			"settings":
+			{
+				"buffer_size": 3340,
 				"line_ending": "Unix"
 			}
 		},
@@ -203,7 +227,7 @@
 			"file": "source/annexes/koding/tuto-01-prise-en-mains.rst",
 			"settings":
 			{
-				"buffer_size": 4028,
+				"buffer_size": 3913,
 				"line_ending": "Unix"
 			}
 		},
@@ -263,9 +287,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 96.0,
 		"selected_items":
 		[
+			[
+				"conv sp",
+				"Indentation: Convert to Spaces"
+			],
 			[
 				"bash",
 				"Set Syntax: Shell Script (Bash)"
@@ -520,6 +548,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"email",
+			"#)  ",
+			"--",
+			"recueil_programmes",
+			"        ",
+			"recueil",
 			"\\n\\n",
 			"=",
 			" \n",
@@ -649,7 +683,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 18,
 			"sheets":
 			[
 				{
@@ -774,15 +808,15 @@
 					"file": "source/index.rst",
 					"settings":
 					{
-						"buffer_size": 2906,
+						"buffer_size": 3265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2290,
-								2290
+								2414,
+								2414
 							]
 						],
 						"settings":
@@ -881,13 +915,39 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 897.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "source/recueil_programmes/intro.rst",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "source/debugging/intro.rst",
 					"settings":
 					{
@@ -1003,7 +1063,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "source/annexes/github/premiere-utilisation.rst",
 					"settings":
 					{
@@ -1119,7 +1179,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "source/annexes/outils-dev.rst",
 					"settings":
 					{
@@ -1234,7 +1294,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "source/annexes/conseils.rst",
 					"settings":
 					{
@@ -1349,7 +1409,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "source/annexes/documents-interessants.rst",
 					"settings":
 					{
@@ -1464,7 +1524,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-01-theorie.rst",
 					"settings":
 					{
@@ -1580,7 +1640,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-02-theorie.rst",
 					"settings":
 					{
@@ -1697,7 +1757,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-03-theorie.rst",
 					"settings":
 					{
@@ -1814,7 +1874,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-05-theorie.rst",
 					"settings":
 					{
@@ -1930,7 +1990,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-06-theorie.rst",
 					"settings":
 					{
@@ -2045,7 +2105,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-01.rst",
 					"settings":
 					{
@@ -2162,7 +2222,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/structures-avancees-02.rst",
 					"settings":
 					{
@@ -2279,7 +2339,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "/D/Dropbox/CS/oc_inf/2013-2015/oci-snippets/source/snippets/types-donnees-01.rst",
 					"settings":
 					{
@@ -2394,7 +2454,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "source/theorie/niveau-01/france-ioi-niveau-01-chap-04-theorie.rst",
 					"settings":
 					{
@@ -2511,7 +2571,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "source/devoirs/devoir-03.rst",
 					"settings":
 					{
@@ -2628,25 +2688,53 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "source/devoirs/devoir-07.rst",
 					"settings":
 					{
-						"buffer_size": 2930,
+						"buffer_size": 2952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1444,
-								1444
+								1297,
+								1297
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "source/devoirs/devoir-08.rst",
+					"settings":
+					{
+						"buffer_size": 1662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2655,7 +2743,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
+					"file": "source/devoirs/devoir-09.rst",
+					"settings":
+					{
+						"buffer_size": 3340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1991,
+								1991
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SublimeReStructuredText/reStructuredText.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 944.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
 					"file": "/home/donnerc/oci2013/oci-prog-exos/Makefile",
 					"settings":
 					{
@@ -2681,7 +2796,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 22,
 					"file": "/home/donnerc/oci2013/oci-prog-exos/update.sh",
 					"settings":
 					{
@@ -2707,7 +2822,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 23,
 					"file": "source/annexes/github/basic-usage.rst",
 					"settings":
 					{
@@ -2734,19 +2849,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 24,
 					"file": "source/annexes/koding/tuto-01-prise-en-mains.rst",
 					"settings":
 					{
-						"buffer_size": 4028,
+						"buffer_size": 3913,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								1075,
+								1075
 							]
 						],
 						"settings":
@@ -2756,13 +2871,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 330.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 25,
 					"file": "source/annexes/koding/tuto-02-cloner-depot-git.rst",
 					"settings":
 					{
@@ -2790,7 +2905,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 26,
 					"file": "source/annexes/koding/cours-01-koding-com.rst",
 					"settings":
 					{
@@ -2801,8 +2916,8 @@
 						"selection":
 						[
 							[
-								1892,
-								1892
+								117,
+								117
 							]
 						],
 						"settings":
@@ -2811,13 +2926,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 858.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 27,
 					"file": "source/theorie/niveau-01/commentaires.rst",
 					"settings":
 					{
@@ -2933,7 +3048,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 28,
 					"file": "source/devoirs/devoir-01.rst",
 					"settings":
 					{
@@ -3048,7 +3163,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 29,
 					"file": "source/devoirs/devoir-04.rst",
 					"settings":
 					{
@@ -3164,7 +3279,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 30,
 					"file": "source/devoirs/devoir-02.rst",
 					"settings":
 					{
@@ -3333,16 +3448,36 @@
 		"selected_items":
 		[
 			[
-				"inde",
-				"/home/donnerc/oci2013/oci-programming/source/index.rst"
+				"07",
+				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
+			],
+			[
+				"",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/tuto-01-prise-en-mains.rst"
+			],
+			[
+				"dki",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/tuto-01-prise-en-mains.rst"
+			],
+			[
+				"koding",
+				"/home/donnerc/oci2013/oci-programming/source/annexes/koding/cours-01-koding-com.rst"
+			],
+			[
+				"09",
+				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-09.rst"
+			],
+			[
+				"de7",
+				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
 			],
 			[
 				"devoir",
 				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
 			],
 			[
-				"",
-				"/home/donnerc/oci2013/oci-programming/source/devoirs/devoir-07.rst"
+				"inde",
+				"/home/donnerc/oci2013/oci-programming/source/index.rst"
 			],
 			[
 				"tuto1",
