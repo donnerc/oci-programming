@@ -33,7 +33,16 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre Ã
         :glob:
         :maxdepth: 1
 
-        plateform/*        
+        plateform/*
+
+    Examen1
+    =======
+
+    ..  toctree::
+        :glob:
+        :maxdepth: 1
+
+        examen1/*
 
 
 

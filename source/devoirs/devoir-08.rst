@@ -40,6 +40,9 @@ L'examen portera sur les problèmes de tous les chapitres du niveau 1 de France 
 *   représentation binaire des nombres et conversion de nombres
     binaires en décimal
 
+*	Analyse de code (comme dans le quiz) ==> comprendre un code et prédire sont
+	résultat sans l'exécuter sur l'ordinateur.
+
 Déroulement de l'examen
 ------------------------
 
