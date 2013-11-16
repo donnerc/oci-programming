@@ -44,6 +44,16 @@ Cette partie du cours d'OC informatique a essentiellement pour but d'apprendre √
 
         examen1/*
 
+Examen 1
+========
+
+..  toctree::
+    :glob:
+    :maxdepth: 1
+
+    examen1/partie-theorique
+    examen1/partie-pratique
+
 
 
 Th√©orie France IOI, niveau 01

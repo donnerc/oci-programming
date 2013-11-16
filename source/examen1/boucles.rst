@@ -85,41 +85,44 @@ Quiz
                 else:
                     break
 
-#)  Indiquer parmi les programmes donnés ci-dessous lesquels sont toujours
-    équivalents au programme suivant :
+#)  On donne le programme suivant dans lequel ``<test>`` est une expression
+    booléenne quelconque et ``<instructions>`` une suite quelconque d'instructions Python.
 
     ::
 
         while <test>:
             <instructions>
 
-    ..  admonition:: QCM
+    Entourer les programmes ci-dessous qui sont équivalent au programme donné
 
-        ::
+    ::
 
-            while <test>:
-                if False:
-                    break
-                <instructions>
-        ::
-
-            while <test>:
-                <instructions>
+        while <test>:
+            if False:
                 break
-        ::
+            <instructions>
 
-            while True:
-                if <test>:
-                    break
-                <instructions>
-        ::
+    ::
 
-            while <test>:
+        while <test>:
+            <instructions>
+            break
+
+    ::
+
+        while True:
+            if <test>:
+                break
+            <instructions>
+
+    ::
+
+        while <test>:
+            <instructions>
+            if <test>:
                 <instructions>
-                if <test>:
-                    <instructions>
-                else:
-                    break                    
+            else:
+                break                    
 
 Quiz 2 (terminaison de boucles)
 -------------------------------
@@ -146,7 +149,6 @@ Boucle 2
 ++++++++
 
 ::
-    
 
     n = any positive integer
     i = 1
@@ -160,9 +162,26 @@ Boucle 2
 
     *   se terminer quelle que soit la valeur de la variable ``n`` avant l'exécution de la boucle
     *   il existe des valeurs pour ``n`` pour lesquelles la boucle ne se termine pas
-    *   impossible à décider si la boucle se termine ou pas pour toute valeur de ``n``                
+    *   impossible à décider si la boucle se termine ou pas pour toute valeur de ``n``     
 
 Boucle 3
+++++++++
+
+::
+
+    n = int(input())
+    i = 1
+    while i != 50:
+        i += n
+
+
+..  admonition::    QCM
+
+    *   se terminer quelle que soit la valeur de la variable ``n`` avant l'exécution de la boucle
+    *   il existe des valeurs pour ``n`` pour lesquelles la boucle ne se termine pas
+
+
+Boucle 4
 ++++++++
 
 ::
@@ -191,3 +210,4 @@ Boucle 3
         sûr que cette boucle se termine pour tout entier :math:`n \in
         \mathbb{N}_{>0}`, mais on n'a jamais pu trouver un nombre :math:`n` pour
         lequel la boucle ne se termine pas.
+
